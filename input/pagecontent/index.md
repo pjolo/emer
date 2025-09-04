@@ -1,4 +1,4 @@
-### Introduction TEST
+### Introduction
 
 **CH IG** is a template for creating a [HL7 Switzerland](https://www.hl7.ch/) FHIR implementation guide.    
 
