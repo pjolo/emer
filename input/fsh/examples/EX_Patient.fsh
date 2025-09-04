@@ -6,5 +6,5 @@ Usage: #example
 * name.family = "Mustermann"
 * name.given = "Max"
 * birthDate = "1965-05-12"
-* gender = "male"
+* gender = #male
 * extension[birthPlace].valueString = "Zürich"
