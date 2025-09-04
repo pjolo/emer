@@ -7,4 +7,6 @@ Usage: #example
 * name.given = "Max"
 * birthDate = "1965-05-12"
 * gender = #male
-* extension[birthPlace].valueString = "Zürich"
+* extension[birthPlace].url = "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"
+* extension[birthPlace].valueAddress.city = "Zürich"
+* extension[birthPlace].valueAddress.country = "CH"
