@@ -8,3 +8,4 @@ Usage: #example
 * name.given = "Anna"
 * telecom.system = "phone"
 * telecom.value = "+41 79 123 45 67"
+* telecom.use = #home
