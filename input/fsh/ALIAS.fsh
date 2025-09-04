@@ -8,6 +8,7 @@ Alias: $ChCorePractitioner =            http://fhir.ch/ig/ch-core/StructureDefin
 Alias: $ChCorePatient =                 http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient
 Alias: $ChCoreAI =                      http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-allergyintolerance
 Alias: $ChCoreMedicationStatement =     http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-medicationstatement
+Alias: $ChCoreImmunization =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-immunization
 
 // XML CH IG Code System
 Alias: $CSChIgExampleTranslation =      http://fhir.ch/ig/ch-ig/CodeSystem/ch-ig-example-translation
