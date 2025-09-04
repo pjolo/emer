@@ -5,7 +5,7 @@
 # https://confluence.hl7.org/display/FHIR/NPM+Package+Specification#NPMPackageSpecification-Packagename
 id: ch.fhir.ig.ch-ig
 canonical: http://fhir.ch/ig/ch-ig
-name: CH_IG
+name: CH EMER
 title: "CH IG (R4)"
 description: Implementation Guide CH IG (R4) for ...
 status: draft
