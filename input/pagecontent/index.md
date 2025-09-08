@@ -16,7 +16,7 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 
 **Download**: You can download this implementation guide in the [npm package format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
-## Überblick
+### Überblick
 
 Der **CH Emergency Pass** ermöglicht es, wichtige medizinische Informationen für Notfallsituationen strukturiert und interoperabel zu speichern und auszutauschen. Er umfasst:
 
@@ -27,7 +27,7 @@ Der **CH Emergency Pass** ermöglicht es, wichtige medizinische Informationen f�
 - **Wichtige Erkrankungen**: Chronische Leiden und relevante Diagnosen
 - **Vitalwerte**: Blutgruppe, wichtige Laborwerte
 
-## Anwendungsbereich
+### Anwendungsbereich
 
 Dieser Implementation Guide richtet sich an:
 - Rettungsdienste und Notfallmedizin
@@ -35,7 +35,7 @@ Dieser Implementation Guide richtet sich an:
 - Patienten und deren Angehörige
 - Entwickler von Notfall-Apps und -Systemen
 
-## Profile
+### Profile
 
 Die definierten Profile basieren auf den **CH Core Profilen** und erweitern diese um spezifische Anforderungen für Notfallsituationen:
 
@@ -47,11 +47,11 @@ Die definierten Profile basieren auf den **CH Core Profilen** und erweitern dies
 - [CHNotfallpassObservation](StructureDefinition-ch-notfallpass-observation.html)
 - [CHNotfallpassDocument](StructureDefinition-ch-notfallpass-document.html)
 
-## Use Cases
+### Use Cases
 
 Detaillierte [Use Cases](usecase-german.html) illustrieren die praktische Anwendung des Notfallpasses in verschiedenen Notfallsituationen.
 
-## Dokumentstruktur
+### Dokumentstruktur
 
 Die [Dokumentstruktur](document.html) zeigt den Aufbau des Notfallpass-Bundles und die Verknüpfung der einzelnen Komponenten.
 
