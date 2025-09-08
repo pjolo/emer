@@ -1,8 +1,6 @@
-# Dokumentstruktur
-
 Das **CHNotfallpassDocument** bildet die Basis für ein vollständiges Notfallpass-Dokument als FHIR Bundle.
 
-## Bundle-Aufbau
+### Bundle-Aufbau
 
 Das Notfallpass-Bundle enthält folgende Hauptsektionen:
 
@@ -36,6 +34,6 @@ Das Notfallpass-Bundle enthält folgende Hauptsektionen:
 - **Inhalt**: Blutgruppe, wichtige Laborwerte
 - **Beispiel**: [Blutgruppe A Rh+](Observation-ObservationBloodType.html)
 
-## Bundle-Beispiel
+### Bundle-Beispiel
 
 Ein vollständiges Notfallpass-Bundle verknüpft alle Sektionen und stellt sicher, dass Rettungskräfte schnell Zugriff auf alle relevanten Informationen haben.
