@@ -16,6 +16,45 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 
 **Download**: You can download this implementation guide in the [npm package format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
+## Überblick
+
+Der **CH Emergency Pass** ermöglicht es, wichtige medizinische Informationen für Notfallsituationen strukturiert und interoperabel zu speichern und auszutauschen. Er umfasst:
+
+- **Patienteninformationen**: Grunddaten, Kontaktdaten, Versicherungsinformationen
+- **Notfallkontakte**: Angehörige, Ärzte und andere wichtige Personen
+- **Allergien und Unverträglichkeiten**: Kritische Informationen für die Notfallbehandlung
+- **Aktuelle Medikation**: Laufende Therapien und Dosierungen
+- **Wichtige Erkrankungen**: Chronische Leiden und relevante Diagnosen
+- **Vitalwerte**: Blutgruppe, wichtige Laborwerte
+
+## Anwendungsbereich
+
+Dieser Implementation Guide richtet sich an:
+- Rettungsdienste und Notfallmedizin
+- Hausärzte und Spitäler
+- Patienten und deren Angehörige
+- Entwickler von Notfall-Apps und -Systemen
+
+## Profile
+
+Die definierten Profile basieren auf den **CH Core Profilen** und erweitern diese um spezifische Anforderungen für Notfallsituationen:
+
+- [CHNotfallpassPatient](StructureDefinition-ch-notfallpass-patient.html)
+- [CHNotfallpassEmergencyContact](StructureDefinition-ch-notfallpass-emergency-contact.html)
+- [CHNotfallpassAllergy](StructureDefinition-ch-notfallpass-allergy.html)
+- [CHNotfallpassMedication](StructureDefinition-ch-notfallpass-medication.html)
+- [CHNotfallpassCondition](StructureDefinition-ch-notfallpass-condition.html)
+- [CHNotfallpassObservation](StructureDefinition-ch-notfallpass-observation.html)
+- [CHNotfallpassDocument](StructureDefinition-ch-notfallpass-document.html)
+
+## Use Cases
+
+Detaillierte [Use Cases](usecase-german.html) illustrieren die praktische Anwendung des Notfallpasses in verschiedenen Notfallsituationen.
+
+## Dokumentstruktur
+
+Die [Dokumentstruktur](document.html) zeigt den Aufbau des Notfallpass-Bundles und die Verknüpfung der einzelnen Komponenten.
+
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
 
