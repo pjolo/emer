@@ -1,7 +1,7 @@
 Profile: CHEmrPatient
-Parent: $ChCorePatient
-Id: ch-core-patient
-Title: "CH Core Patient"
-Description: "Das schweizerische Patientenprofil nach den Datenstandards eCH-0010 und eCH-0011 zur Verwendung im EPD."
+Parent: $CHIPSPatient
+Id: ch-emr-patient
+Title: "Emergency Record Patient"
+Description: "Patient profile for the Emergency Record based on CH IPS Patient."
 
 
