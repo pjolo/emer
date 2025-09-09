@@ -1,5 +1,5 @@
-Profile: CHCoreObservation
+Profile: ChEmrObservation
 Parent: Observation
-Id: ch-core-observation
-Title: "CH Core Observation"
-Description: "CH Core Profil für Observationen (z. B. Reanimationsstatus, Schwangerschaft)."
+Id: ch-emr-observation
+Title: "Emergency Record Observation"
+Description: "Observation profile for various observations in the Emergency Record."
