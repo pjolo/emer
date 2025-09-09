@@ -1,5 +1,5 @@
-Profile: CHCoreImmunization
-Parent: Immunization
-Id: ch-core-immunization
-Title: "CH Core Immunization"
-Description: "CH Core Profil für Impfungen."
+Profile: ChEmrImmunization
+Parent: $CHIPSImmunization
+Id: ch-emr-immunization
+Title: "Emergenca Record Immunization"
+Description: "Immunization profile for vaccinations in the Emergency Record."
