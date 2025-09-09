@@ -30,6 +30,7 @@ dependencies:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 6.4.0 
   ch.fhir.ig.ch-core: 6.0.0-ballot
+  ch.fhir.ig.ch-ips: 1.0.0
   hl7.fhir.extensions.r5: 4.0.1
 # Extensions for converting between versions: https://build.fhir.org/versions.html#extensions
 # FHIR Cross-Version Mapping Pack: https://build.fhir.org/ig/HL7/fhir-cross-version/
