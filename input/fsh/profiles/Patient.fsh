@@ -1,4 +1,4 @@
-Profile: CHEmrPatient
+Profile: ChEmrPatient
 Parent: $CHIPSPatient
 Id: ch-emr-patient
 Title: "Emergency Record Patient"
