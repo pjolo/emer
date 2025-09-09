@@ -1,5 +1,5 @@
 ValueSet: ConditionCode
-Id: enotfallpass-condition-code
+Id: condition-code
 Title: "eNotfallpass Condition Code"
 Description: "Codes für Probleme und Diagnosen im eNotfallpass (ICD-10, SNOMED CT)"
 * ^version = "1.0.0"
