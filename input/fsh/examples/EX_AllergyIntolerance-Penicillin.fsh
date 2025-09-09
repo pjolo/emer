@@ -19,4 +19,4 @@ Description: "Beispiel einer Penicillin-Allergie"
 * reaction.manifestation[0] = $sct#39579001 "Anaphylaxis"
 * reaction.manifestation[1] = $sct#271807003 "Eruption of skin"
 * reaction.severity = #severe
-* reaction.note = "Notfallbehandlung erforderlich gewesen"
+* reaction.note.text = "Notfallbehandlung erforderlich gewesen"
