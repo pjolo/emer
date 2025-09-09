@@ -1,5 +1,5 @@
-Profile: CHCoreRelatedPerson
+Profile: ChEmrRelatedPerson
 Parent: RelatedPerson
-Id: ch-core-relatedperson
-Title: "CH Core RelatedPerson"
-Description: "CH Core Profil für Notfallkontakte."
+Id: ch-emr-relatedperson
+Title: "Emergency Record RelatedPerson"
+Description: "RelatedPerson profile for emergency contacts and family members in the Emergency Record."
