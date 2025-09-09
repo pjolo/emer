@@ -10,5 +10,14 @@ Alias: $ChCoreAI =                      http://fhir.ch/ig/ch-core/StructureDefin
 Alias: $ChCoreMedicationStatement =     http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-medicationstatement
 Alias: $ChCoreImmunization =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-immunization
 
+// CH IPS Profiles
+Alias: $CHIPSPatient = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-patient
+Alias: $CHIPSPractitioner = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-practitioner
+Alias: $CHIPSCondition = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-condition
+Alias: $CHIPSMedication = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-medication
+Alias: $CHIPSAllergyIntolerance = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-allergyintolerance
+Alias: $CHIPSImmunization = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-immunization
+Alias: $CHIPSDevice = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-device
+
 // XML CH IG Code System
 Alias: $CSChIgExampleTranslation =      http://fhir.ch/ig/ch-ig/CodeSystem/ch-ig-example-translation
