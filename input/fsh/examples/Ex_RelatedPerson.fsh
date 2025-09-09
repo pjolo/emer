@@ -1,5 +1,5 @@
 Instance: RelatedPersonEhefrau
-InstanceOf: CHCoreRelatedPerson
+InstanceOf: ChEmrRelatedPerson
 Usage: #example
 * patient.reference = "Patient/PatientMaxMustermann"
 //* relationship[0].coding.system = "http://terminology.hl7.org/CodeSystem/v2-0131"
