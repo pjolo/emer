@@ -1,5 +1,5 @@
-ValueSet: eNotfallpassConditionCategory
-Id: enotfallpass-condition-category
+ValueSet: ConditionCategory
+Id: condition-category
 Title: "eNotfallpass Condition Category"
 Description: "Kategorien für Probleme und Diagnosen im eNotfallpass"
 * ^version = "1.0.0"
