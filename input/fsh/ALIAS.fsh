@@ -15,6 +15,7 @@ Alias: $CHIPSPatient = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-patie
 Alias: $CHIPSPractitioner = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-practitioner
 Alias: $CHIPSCondition = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-condition
 Alias: $CHIPSMedication = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-medication
+Alias: $CHIPSMedicationStatement = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-medicationstatement
 Alias: $CHIPSAllergyIntolerance = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-allergyintolerance
 Alias: $CHIPSImmunization = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-immunization
 Alias: $CHIPSDevice = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-device
