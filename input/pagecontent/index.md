@@ -16,44 +16,113 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 
 **Download**: You can download this implementation guide in the [npm package format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
-### Überblick
+## Überblick
 
-Der **CH Emergency Pass** ermöglicht es, wichtige medizinische Informationen für Notfallsituationen strukturiert und interoperabel zu speichern und auszutauschen. Er umfasst:
+Der eNotfallpass wird als FHIR Bundle vom Typ "document" strukturiert. Das Bundle enthält alle relevanten medizinischen Informationen eines Patienten, die in Notfallsituationen benötigt werden.
 
-- **Patienteninformationen**: Grunddaten, Kontaktdaten, Versicherungsinformationen
-- **Notfallkontakte**: Angehörige, Ärzte und andere wichtige Personen
-- **Allergien und Unverträglichkeiten**: Kritische Informationen für die Notfallbehandlung
-- **Aktuelle Medikation**: Laufende Therapien und Dosierungen
-- **Wichtige Erkrankungen**: Chronische Leiden und relevante Diagnosen
-- **Vitalwerte**: Blutgruppe, wichtige Laborwerte
+## Bundle-Aufbau
 
-### Anwendungsbereich
+Das [eNotfallpass Bundle](StructureDefinition-enotfallpass-bundle.html) folgt der FHIR Document-Struktur und enthält:
 
-Dieser Implementation Guide richtet sich an:
-- Rettungsdienste und Notfallmedizin
-- Hausärzte und Spitäler
-- Patienten und deren Angehörige
-- Entwickler von Notfall-Apps und -Systemen
+### 1. Composition (Komposition)
+Die [Composition](StructureDefinition-enotfallpass-composition.html) ist das erste Entry im Bundle und definiert:
+- Dokumenttyp: "Emergency Contact Information"
+- Status: "final"
+- Patient-Referenz
+- Erstellungsdatum
+- Autor (behandelnde Fachperson)
+- Sections mit Referenzen auf die einzelnen Ressourcen
 
-### Profile
+### 2. Patient
+Der [Patient](StructureDefinition-enotfallpass-patient.html) mit:
+- Demografischen Daten
+- Kontaktinformationen
+- Notfallkontakten
+- Kommunikationssprache
 
-Die definierten Profile basieren auf den **CH Core Profilen** und erweitern diese um spezifische Anforderungen für Notfallsituationen:
+### 3. Medizinische Informationen
 
-- [CHNotfallpassPatient](StructureDefinition-ch-notfallpass-patient.html)
-- [CHNotfallpassEmergencyContact](StructureDefinition-ch-notfallpass-emergency-contact.html)
-- [CHNotfallpassAllergy](StructureDefinition-ch-notfallpass-allergy.html)
-- [CHNotfallpassMedication](StructureDefinition-ch-notfallpass-medication.html)
-- [CHNotfallpassCondition](StructureDefinition-ch-notfallpass-condition.html)
-- [CHNotfallpassObservation](StructureDefinition-ch-notfallpass-observation.html)
-- [CHNotfallpassDocument](StructureDefinition-ch-notfallpass-document.html)
+#### Probleme und Diagnosen
+- [Conditions](StructureDefinition-enotfallpass-condition.html) für aktive Diagnosen
+- Schweregrad und Status
+- Onset-Datum
 
-### Use Cases
+#### Medikation
+- [MedicationStatements](StructureDefinition-enotfallpass-medicationstatement.html) für aktuelle Therapien
+- [Medication](StructureDefinition-enotfallpass-medication.html) Resources mit Wirkstoff-Informationen
+- Dosierung und Einnahmezeiten
 
-Detaillierte [Use Cases](usecase-german.html) illustrieren die praktische Anwendung des Notfallpasses in verschiedenen Notfallsituationen.
+#### Allergien und Unverträglichkeiten
+- [AllergyIntolerances](StructureDefinition-enotfallpass-allergyintolerance.html) mit Schweregrad
+- Reaktionstypen und Manifestationen
+- Kritikalität für Notfallbehandlung
 
-### Dokumentstruktur
+#### Implantate und Hilfsmittel
+- [Devices](StructureDefinition-enotfallpass-device.html) mit technischen Details
+- MRT-Sicherheitsinformationen
+- Seriennummern und Modellbezeichnungen
 
-Die [Dokumentstruktur](document.html) zeigt den Aufbau des Notfallpass-Bundles und die Verknüpfung der einzelnen Komponenten.
+#### Behandlungsrichtlinien
+- [Consent](StructureDefinition-enotfallpass-consent.html) für Reanimationsstatus
+- Patientenverfügungen
+- Behandlungswünsche
+
+#### Spezielle Beobachtungen
+- [Observations](StructureDefinition-enotfallpass-observation.html) für:
+  - Schwangerschaftsstatus
+  - Risikofaktoren
+  - Beeinträchtigungen
+  - Sozialanamnese
+
+#### Impfungen
+- [Immunizations](StructureDefinition-enotfallpass-immunization.html) mit Impfdaten
+- Impfstoff-Details
+- Auffrischungsempfehlungen
+
+### 4. Behandelnde Fachpersonen
+- [Practitioners](StructureDefinition-enotfallpass-practitioner.html) als Ersteller und Verantwortliche
+- GLN und ZSR-Nummern
+- Fachrichtung und Organisation
+
+## Sections der Composition
+
+Die Composition ist in folgende Sections unterteilt:
+
+| Section | Code | Inhalt |
+|---------|------|--------|
+| Patient Summary | `60591-5` | Demographische Daten |
+| Problem List | `11450-4` | Aktive Probleme und Diagnosen |
+| Medication Summary | `10160-0` | Aktuelle Medikation |
+| Allergies | `48765-2` | Allergien und Unverträglichkeiten |
+| Medical Devices | `46264-8` | Implantate und Hilfsmittel |
+| Advance Directives | `42348-3` | Behandlungsrichtlinien |
+| Pregnancy Status | `90767-5` | Schwangerschaftsinformationen |
+| Social History | `29762-2` | Risikofaktoren und Sozialanamnese |
+| Immunizations | `11369-6` | Impfstatus |
+
+## Beispiel-Bundle
+
+Ein vollständiges Beispiel ist als [eNotfallpass Bundle Beispiel](Bundle-enotfallpass-bundle-example.html) verfügbar und zeigt die praktische Umsetzung der Dokumentstruktur.
+
+## Technische Hinweise
+
+### Referenzen
+- Alle Ressourcen innerhalb des Bundles verwenden relative Referenzen
+- Patient-Referenzen sind in allen Ressourcen verpflichtend
+- Practitioner-Referenzen identifizieren behandelnde Fachpersonen
+
+### Identifikation
+- Bundle.identifier für eindeutige Dokument-ID
+- Patient.identifier mit AHVN13 oder lokaler Patient-ID
+- Practitioner.identifier mit GLN oder ZSR-Nummer
+
+### Versionierung
+- Bundle.timestamp für Erstellungszeitpunkt
+- Composition.date für medizinische Gültigkeit
+- Resource.meta.lastUpdated für technische Änderungen
+
+### Validierung
+Das Bundle muss gegen die definierten Profile und Terminologien validiert werden und sollte keine kritischen Fehler oder Warnungen enthalten.
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
