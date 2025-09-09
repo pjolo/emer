@@ -1,7 +1,7 @@
-Profile: ChIgPractitioner
-Parent: $ChCorePractitioner
-Id: ch-ig-practitioner
-Title: "CH IG Practitioner"
-Description: "CH IG Practitioner profile is just an example!"
-* . ^short = "CH IG Practitioner"
+Profile: ChEmrPractitioner
+Parent: $CHIPSPractitioner
+Id: ch-emr-practitioner
+Title: "Emergency Record Practitioner"
+Description: "Practitioner profile for treating healthcare professionals in the Emergency Record."
+
 
