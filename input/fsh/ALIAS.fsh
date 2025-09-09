@@ -1,3 +1,11 @@
+Alias: $loinc = http://loinc.org
+Alias: $sct = http://snomed.info/sct
+Alias: $atc = http://www.whocc.no/atc
+Alias: $icd10 = http://hl7.org/fhir/sid/icd-10
+Alias: $ucum = http://unitsofmeasure.org
+Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
+
 // External Code Systems
 Alias: $loinc =                         http://loinc.org
 Alias: $sct =                           http://snomed.info/sct
