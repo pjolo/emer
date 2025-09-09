@@ -1,4 +1,4 @@
-Profile: CHCorePatient
+Profile: CHEmrPatient
 Parent: $ChCorePatient
 Id: ch-core-patient
 Title: "CH Core Patient"
