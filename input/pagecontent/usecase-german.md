@@ -1,8 +1,6 @@
-# Anwendungsfälle
-
 Diese Seite beschreibt realistische medizinische Szenarien für die Verwendung des eNotfallpass. Alle Beispiele sind vollständig im Implementation Guide implementiert und referenzierbar.
 
-## Use Case 1: Diabetikerin mit Penicillin-Allergie
+### Use Case 1: Diabetikerin mit Penicillin-Allergie
 
 [Maria Schmidt](Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](Patient-MariaSchmidt.html#contact) alarmiert den Rettungsdienst um 14:30 Uhr.
 
@@ -14,7 +12,7 @@ Der Notarzt kann sofort eine Glukose-Infusion verabreichen. Als Notfallkontakt w
 
 Die Patientin erholt sich schnell und kann nach Stabilisierung zu Hause bleiben. Die Hypoglykämie war vermutlich durch eine vergessene Mahlzeit bei normaler Metformin-Dosis entstanden.
 
-## Use Case 2: Herzschrittmacher-Patient mit MRT-Indikation
+### Use Case 2: Herzschrittmacher-Patient mit MRT-Indikation
 
 Hans Meier, 72 Jahre alt, stürzt beim Wandern und wird mit Verdacht auf eine Schenkelhalsfraktur ins Spital eingeliefert. Eine MRT-Untersuchung zur genauen Diagnosestellung ist indiziert.
 
@@ -24,7 +22,7 @@ Diese Information ermöglicht es dem Radiologen, die MRT-Untersuchung nach entsp
 
 Zusätzlich ist dokumentiert, dass der Patient Marcumar zur Antikoagulation einnimmt, was bei einer möglichen Operation berücksichtigt werden muss.
 
-## Use Case 3: Schwangere mit Reanimationsverfügung
+### Use Case 3: Schwangere mit Reanimationsverfügung
 
 Laura Weber, 28 Jahre alt, wird in der 32. Schwangerschaftswoche nach einem Verkehrsunfall bewusstlos in die Notaufnahme eingeliefert. Der eNotfallpass zeigt eine [aktuelle Schwangerschaft](Observation-Pregnancy.html) mit einem erwarteten Geburtstermin am 15. November 2025.
 
@@ -34,7 +32,7 @@ Die Patientin hat eine bekannte [Allergie gegen Kontrastmittel](AllergyIntoleran
 
 Der Gynäkologe kann anhand der Schwangerschaftsdaten sofort eine fetale Überwachung einleiten. Die Patientin stabilisiert sich, und sowohl Mutter als auch Kind sind nach der Behandlung wohlauf.
 
-## Use Case 4: Multimorbider Patient mit komplexer Medikation
+### Use Case 4: Multimorbider Patient mit komplexer Medikation
 
 Rudolf Zimmermann, 85 Jahre alt, wird von Angehörigen wegen zunehmender Verwirrtheit und Sturz zu Hause ins Spital gebracht. Der eNotfallpass zeigt eine komplexe medizinische Historie:
 
@@ -48,7 +46,7 @@ Der Patient trägt zudem ein [Implantat eines künstlichen Hüftgelenks](Device-
 
 Als Betreuerin ist seine Tochter Elisabeth Zimmermann unter +41 61 789 45 23 eingetragen, die auch eine Vollmacht für medizinische Entscheidungen besitzt.
 
-## Use Case 5: Anaphylaxie bei bekannter Nussallergie
+### Use Case 5: Anaphylaxie bei bekannter Nussallergie
 
 Tim Huber, 16 Jahre alt, wird nach dem Verzehr eines Schokoriegels in der Schule mit schwerer Atemnot und Hautausschlag in die Notaufnahme gebracht. Der eNotfallpass zeigt eine [schwere Nussallergie](AllergyIntolerance-Nuts.html), insbesondere gegen Haselnüsse und Erdnüsse.
 
