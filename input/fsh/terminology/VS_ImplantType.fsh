@@ -1,5 +1,5 @@
 ValueSet: ImplantType
-Id: enotfallpass-implant-type
+Id: implant-type
 Title: "eNotfallpass Implant Type"
 Description: "Codes für Implantattypen (SNOMED CT)"
 * ^version = "1.0.0"
