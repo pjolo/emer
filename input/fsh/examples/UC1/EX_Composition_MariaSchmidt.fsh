@@ -1,5 +1,5 @@
 Instance: Composition-emr-MariaSchmidt
-InstanceOf: Composition
+InstanceOf: ChEmrComposition
 Usage: #example
 Title: "eNotfallpass Composition - Maria Schmidt"
 Description: "Composition für den eNotfallpass von Maria Schmidt"

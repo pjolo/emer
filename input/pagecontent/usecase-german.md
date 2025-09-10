@@ -2,10 +2,6 @@ Diese Seite beschreibt realistische medizinische Szenarien für die Verwendung d
 
 ### Use Case 1: Diabetikerin mit Penicillin-Allergie
 
-Diese Seite beschreibt realistische medizinische Szenarien für die Verwendung des eNotfallpass. Alle Beispiele sind vollständig im Implementation Guide implementiert und referenzierbar.
-
-## Use Case 1: Diabetikerin mit Penicillin-Allergie
-
 [Maria Schmidt](Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](RelatedPerson-PeterSchmidt.html) alarmiert den Rettungsdienst um 14:30 Uhr.
 
 Bei Ankunft des [Notarztes](Practitioner-NotarztBecker.html) ist die Patientin ansprechbar, aber verwirrt. Der [Blutzucker zeigt einen Wert von 45 mg/dl](Observation-BloodGlucose-Emergency.html), was auf eine schwere Hypoglykämie hindeutet. Aus dem eNotfallpass ist ersichtlich, dass Maria an [Diabetes mellitus Typ 2](Condition-Diabetes.html) leidet, der seit 2015 mit [Metformin](MedicationStatement-Metformin.html) behandelt wird. Der [letzte HbA1c-Wert betrug 6.8%](Observation-HbA1c.html).
@@ -22,7 +18,7 @@ Das vollständige [eNotfallpass Bundle](Bundle-eNotfallpass-MariaSchmidt.html) f
 
 Hans Meier, 72 Jahre alt, stürzt beim Wandern und wird mit Verdacht auf eine Schenkelhalsfraktur ins Spital eingeliefert. Eine MRT-Untersuchung zur genauen Diagnosestellung ist indiziert.
 
-Aus dem eNotfallpass geht hervor, dass dem Patienten 2020 ein [Herzschrittmacher](Device-Pacemaker.html) vom Typ "Boston Scientific Accolade MRI" implantiert wurde. Die Seriennummer PM987654321 und die Modellnummer L331 sind dokumentiert. Entscheidend ist die Sicherheitsinformation, dass das Gerät [MR-sicher](Device-Pacemaker.html#safety) ist.
+Aus dem eNotfallpass geht hervor, dass dem Patienten 2020 ein [Herzschrittmacher](Device-Pacemaker.html) 
 
 Diese Information ermöglicht es dem Radiologen, die MRT-Untersuchung nach entsprechenden Sicherheitsprotokollen durchzuführen, ohne den Schrittmacher zuvor deaktivieren zu müssen. Die letzte Schrittmacher-Kontrolle fand am 01.09.2025 statt.
 
