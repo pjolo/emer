@@ -1,5 +1,5 @@
 Profile: ChEmrImmunization
 Parent: $CHIPSImmunization
 Id: ch-emr-immunization
-Title: "Emergenca Record Immunization"
+Title: "Emergency Record Immunization"
 Description: "Immunization profile for vaccinations in the Emergency Record."
