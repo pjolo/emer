@@ -43,15 +43,18 @@ Das vollständige [eNotfallpass Bundle für Laura Weber](Bundle-eNotfallpass-Lau
 
 ### Use Case 4: Multimorbider Patient mit komplexer Medikation
 
-Rudolf Zimmermann, 85 Jahre alt, wird von Angehörigen wegen zunehmender Verwirrtheit und Sturz zu Hause ins Spital gebracht. Der eNotfallpass zeigt eine komplexe medizinische Historie:
+[Rudolf Zimmermann](Patient-RudolfZimmermann.html), 85 Jahre alt, wird von Angehörigen wegen zunehmender Verwirrtheit und Sturz zu Hause ins Spital gebracht. Der eNotfallpass zeigt eine komplexe medizinische Historie:
 
-Aktive Diagnosen umfassen [chronische Herzinsuffizienz](Condition-HeartFailure.html), [Vorhofflimmern](Condition-AtrialFibrillation.html), [chronische Niereninsuffizienz Stadium 3](Condition-ChronicKidneyDisease.html) und [Diabetes mellitus Typ 2](Condition-Diabetes.html).
+Aktive Diagnosen umfassen [chronische Herzinsuffizienz](Condition-HeartFailure.html), [Vorhofflimmern](Condition-AtrialFibrillation.html), [chronische Niereninsuffizienz Stadium 3](Condition-ChronicKidneyDisease.html) und [Diabetes mellitus Typ 2](Condition-DiabetesRudolf.html).
 
-Die aktuelle Medikation beinhaltet [Ramipril 5mg](MedicationStatement-Ramipril.html) morgens, [Metoprolol 50mg](MedicationStatement-Metoprolol.html) zweimal täglich, [Furosemid 40mg](MedicationStatement-Furosemid.html) morgens und [Metformin 1000mg](MedicationStatement-Metformin.html) zweimal täglich.
+Die aktuelle Medikation beinhaltet [Ramipril 5mg](MedicationStatement-Ramipril.html) morgens, [Metoprolol 50mg](MedicationStatement-Metoprolol.html) zweimal täglich, [Furosemid 40mg](MedicationStatement-Furosemid.html) morgens und [Metformin 1000mg](MedicationStatement-MetforminRudolf.html) zweimal täglich.
 
 Eine [schwere Nierenfunktionsstörung](Observation-CreatinineLevel.html) mit einem Kreatinin von 2.8 mg/dl erklärt die Symptomatik. Die Metformin-Therapie muss sofort pausiert werden, und die Diuretika-Dosis muss angepasst werden.
 
 Der Patient trägt zudem ein [Implantat eines künstlichen Hüftgelenks](Device-HipProsthesis.html) von 2018, was bei bildgebenden Verfahren zu berücksichtigen ist.
 
-Als Betreuerin ist seine Tochter Elisabeth Zimmermann unter +41 61 789 45 23 eingetragen, die auch eine Vollmacht für medizinische Entscheidungen besitzt.
+Als Betreuerin ist seine [Tochter Elisabeth Zimmermann](RelatedPerson-ElisabethZimmermann.html) unter +41 61 789 45 23 eingetragen, die auch eine [Vollmacht für medizinische Entscheidungen](Consent-MedicalPowerOfAttorney.html) besitzt. Der behandelnde [Hausarzt Dr. Weber](Practitioner-DrWeber.html) wird über die komplexe Situation informiert.
+
+Das vollständige [eNotfallpass Bundle für Rudolf Zimmermann](Bundle-eNotfallpass-RudolfZimmermann.html) zeigt alle medizinischen Zusammenhänge und Kontraindikationen strukturiert auf.
+
 
