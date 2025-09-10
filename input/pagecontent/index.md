@@ -16,28 +16,28 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 
 **Download**: You can download this implementation guide in the [npm package format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
-## Zielsetzung
+### Objective
 
-Der eNotfallpass soll medizinischen Fachpersonen in Notfallsituationen schnell und strukturiert Zugang zu den wichtigsten medizinischen Informationen eines Patienten ermöglichen.
+The emergency report is designed to give medical professionals quick and structured access to a patient's most important medical information in emergency situations. However, this medical information can also be used in unforeseen patient contacts where, for example, language barriers exist or health literacy is limited.
 
-## Inhaltliche Abdeckung
+### Content scope
 
-### Kernbereiche
+#### Core units
 
-* **Patienteninformationen**: Demografische Daten und Kontaktinformationen
-* **Notfallkontakte**: Angehörige und Vertrauenspersonen
-* **Medizinische Historie**: Diagnosen, Probleme und chronische Erkrankungen
-* **Aktuelle Medikation**: Einnahme und Dosierung von Medikamenten
-* **Allergien und Unverträglichkeiten**: Bekannte allergische Reaktionen und Intoleranzen
-* **Implantate und Hilfsmittel**: Medizinische Geräte und deren Sicherheitsinformationen
-* **Behandlungsrichtlinien**: Reanimationsstatus und Patientenverfügungen
-* **Schwangerschaft**: Aktuelle Schwangerschaftsinformationen
-* **Risikofaktoren**: Für die Behandlung relevante Risiken
-* **Impfungen**: Impfstatus und -historie
+* **Patient information**: Demographic data and contact information
+* **Emergency contacts**: Family and trusted persons
+* **Medical history**: Diagnoses and problems
+* **Current medication**: Information and dosage of medications
+* **Allergies and intolerances**: Known allergic reactions and intolerances
+* **Implants **: Medical devices
+* **Resuscitation status**: Resuscitation status of the person
+* **Pregnancy**: Current pregnancy information
+* **Risk factors**: Risks relevant to treatment
+* **Vaccinations**: Current vaccinations
 
-### Profile
+#### Profiles
 
-Der Implementation Guide definiert folgende Hauptprofile:
+The Implementation Guide defines the following main profiles:
 
 | Profil | Beschreibung | Parent |
 |--------|--------------|---------|
@@ -47,33 +47,6 @@ Der Implementation Guide definiert folgende Hauptprofile:
 | [eNotfallpassAllergyIntolerance](StructureDefinition-enotfallpass-allergyintolerance.html) | Allergien und Unverträglichkeiten | CH IPS AllergyIntolerance |
 | [eNotfallpassDevice](StructureDefinition-enotfallpass-device.html) | Implantate und Hilfsmittel | CH IPS Device |
 | [eNotfallpassObservation](StructureDefinition-enotfallpass-observation.html) | Verschiedene Beobachtungen | CH Core Observation |
-| [eNotfallpassConsent](StructureDefinition-enotfallpass-consent.html) | Behandlungsrichtlinien | Consent |
-
-## Anwendung
-
-### Implementierung
-
-Implementierer sollten die [Anwendungsfälle](usecase-german.html) als Basis für ihre Umsetzung verwenden. Diese zeigen realistische Szenarien und die Verwendung der Profile.
-
-### Terminologie
-
-Der Implementation Guide verwendet primär internationale und schweizerische Terminologien:
-* SNOMED CT für klinische Konzepte
-* LOINC für Laborwerte und Beobachtungen  
-* ICD-10 für Diagnosen
-* ATC für Medikation
-
-### Compliance
-
-Alle Profile sind mit den CH Core und CH IPS Spezifikationen kompatibel und befolgen die FHIR R4 Standards.
-
-## Navigation
-
-* [Anwendungsfälle](usecase-german.html) - Detaillierte medizinische Szenarien
-* [Dokumentstruktur](document.html) - Aufbau des eNotfallpass Bundles
-* [Profile](artifacts.html#structures-resource-profiles) - Technische Spezifikationen
-* [Terminologie](artifacts.html#terminology-value-sets) - ValueSets und CodeSystems
-* [Beispiele](artifacts.html#example-example-instances) - Konkrete Implementierungsbeispiele
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
