@@ -11,7 +11,7 @@ Description: "Vollständiges eNotfallpass Bundle für Laura Weber"
 
 // Composition als erstes Entry
 * entry[0].fullUrl = "http://fhir.ch/ig/enotfallpass/Composition/Composition-eNotfallpass-LauraWeber"
-* entry[0].resource = Composition-ChEmr-LauraWeber
+* entry[0].resource = Composition-emr-LauraWeber
 
 // Patient
 * entry[1].fullUrl = "http://fhir.ch/ig/enotfallpass/Patient/Patient-LauraWeber"

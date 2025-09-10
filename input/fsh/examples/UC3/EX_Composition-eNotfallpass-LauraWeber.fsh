@@ -1,4 +1,4 @@
-Instance: Composition-eNotfallpass-LauraWeber
+Instance: Composition-emr-LauraWeber
 InstanceOf: ChEmrComposition
 Usage: #example
 Title: "eNotfallpass Composition - Laura Weber"
