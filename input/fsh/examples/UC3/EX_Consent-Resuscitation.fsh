@@ -1,5 +1,5 @@
 Instance: Consent-Resuscitation
-InstanceOf: ChEmrConsent
+InstanceOf: Consent
 Usage: #example
 Title: "Patientenverfügung Reanimation"
 Description: "Spezielle Patientenverfügung für Schwangerschaft"
