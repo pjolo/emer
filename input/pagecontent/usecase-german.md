@@ -28,16 +28,18 @@ Der [behandelnde Unfallchirurg](Practitioner-DrUnfallchirurg.html) kann die MRT-
 
 Das vollständige [eNotfallpass Bundle für Hans Meier](Bundle-eNotfallpass-HansMeier.html) enthält alle relevanten Informationen für die sichere Behandlung.
 
-
 ### Use Case 3: Schwangere mit Reanimationsverfügung
 
-Laura Weber, 28 Jahre alt, wird in der 32. Schwangerschaftswoche nach einem Verkehrsunfall bewusstlos in die Notaufnahme eingeliefert. Der eNotfallpass zeigt eine [aktuelle Schwangerschaft](Observation-Pregnancy.html) mit einem erwarteten Geburtstermin am 15. November 2025.
+[Laura Weber](Patient-LauraWeber.html), 28 Jahre alt, wird in der 32. Schwangerschaftswoche nach einem [Verkehrsunfall](Encounter-Verkehrsunfall.html) bewusstlos in die Notaufnahme eingeliefert. Der eNotfallpass zeigt eine [aktuelle Schwangerschaft](Observation-Pregnancy.html) mit einem erwarteten Geburtstermin am 15. November 2025.
 
 Besonders relevant ist die dokumentierte [Patientenverfügung](Consent-Resuscitation.html), in der die Patientin für den Fall schwerer Komplikationen eine Reanimation nur dann wünscht, wenn das ungeborene Kind gerettet werden kann. Diese Information ist entscheidend für die Behandlungsstrategie des Notfallteams.
 
-Die Patientin hat eine bekannte [Allergie gegen Kontrastmittel](AllergyIntolerance-Contrast.html) mit Hautreaktionen dokumentiert. Als Notfallkontakt ist ihr Partner Michael Weber unter +41 79 555 12 34 hinterlegt.
+Die Patientin hat eine bekannte [Allergie gegen Kontrastmittel](AllergyIntolerance-Contrast.html) mit Hautreaktionen dokumentiert. Als Notfallkontakt ist ihr [Partner Michael Weber](RelatedPerson-MichaelWeber.html) unter +41 79 555 12 34 hinterlegt.
 
-Der Gynäkologe kann anhand der Schwangerschaftsdaten sofort eine fetale Überwachung einleiten. Die Patientin stabilisiert sich, und sowohl Mutter als auch Kind sind nach der Behandlung wohlauf.
+Der [Gynäkologe](Practitioner-DrGynaekologin.html) kann anhand der Schwangerschaftsdaten sofort eine [fetale Überwachung](Observation-FetalHeartRate.html) einleiten. Die Patientin stabilisiert sich, und sowohl Mutter als auch Kind sind nach der Behandlung wohlauf. Der behandelnde [Notarzt](Practitioner-DrNotarzt.html) koordiniert die Versorgung unter Berücksichtigung der besonderen Umstände.
+
+Das vollständige [eNotfallpass Bundle für Laura Weber](Bundle-eNotfallpass-LauraWeber.html) enthält alle schwangerschaftsspezifischen Informationen für die optimale Notfallversorgung.
+
 
 ### Use Case 4: Multimorbider Patient mit komplexer Medikation
 
