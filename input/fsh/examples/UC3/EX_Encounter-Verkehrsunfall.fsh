@@ -29,10 +29,5 @@ Description: "Notfall-Behandlung nach Verkehrsunfall"
 * location.location.display = "Notaufnahme Universitätsspital Basel"
 * location.status = #active
 
-* diagnosis[0].condition = Reference(Observation-Pregnancy)
-* diagnosis[0].use = http://terminology.hl7.org/CodeSystem/diagnosis-role#CC
-
 * hospitalization.admitSource = $sct#309902002 "Emergency department"
 * hospitalization.dischargeDisposition = $sct#306689006 "Discharge to home"
-
-
