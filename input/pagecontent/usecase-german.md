@@ -2,15 +2,21 @@ Diese Seite beschreibt realistische medizinische Szenarien für die Verwendung d
 
 ### Use Case 1: Diabetikerin mit Penicillin-Allergie
 
-[Maria Schmidt](Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](Patient-MariaSchmidt.html#contact) alarmiert den Rettungsdienst um 14:30 Uhr.
+Diese Seite beschreibt realistische medizinische Szenarien für die Verwendung des eNotfallpass. Alle Beispiele sind vollständig im Implementation Guide implementiert und referenzierbar.
 
-Bei Ankunft des Notarztes ist die Patientin ansprechbar, aber verwirrt. Der Blutzucker zeigt einen Wert von 45 mg/dl, was auf eine schwere Hypoglykämie hindeutet. Aus dem eNotfallpass ist ersichtlich, dass Maria an [Diabetes mellitus Typ 2](Condition-Diabetes.html) leidet, der seit 2015 mit Metformin behandelt wird. Der letzte HbA1c-Wert betrug 6.8%.
+## Use Case 1: Diabetikerin mit Penicillin-Allergie
+
+[Maria Schmidt](Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](RelatedPerson-PeterSchmidt.html) alarmiert den Rettungsdienst um 14:30 Uhr.
+
+Bei Ankunft des [Notarztes](Practitioner-NotarztBecker.html) ist die Patientin ansprechbar, aber verwirrt. Der [Blutzucker zeigt einen Wert von 45 mg/dl](Observation-BloodGlucose-Emergency.html), was auf eine schwere Hypoglykämie hindeutet. Aus dem eNotfallpass ist ersichtlich, dass Maria an [Diabetes mellitus Typ 2](Condition-Diabetes.html) leidet, der seit 2015 mit [Metformin](MedicationStatement-Metformin.html) behandelt wird. Der [letzte HbA1c-Wert betrug 6.8%](Observation-HbA1c.html).
 
 Kritisch ist die dokumentierte [Penicillin-Allergie](AllergyIntolerance-Penicillin.html) mit anaphylaktischer Reaktion in der Kindheit. Diese Information verhindert die versehentliche Gabe von Beta-Lactam-Antibiotika bei einer möglichen Sekundärinfektion.
 
-Der Notarzt kann sofort eine Glukose-Infusion verabreichen. Als Notfallkontakt wird der Ehemann unter der Nummer +41 44 321 65 87 kontaktiert. Als weitere Angehörige ist [Anna Müller](Patient-MariaSchmidt.html#contact) unter +41 31 456 78 90 hinterlegt.
+Der Notarzt kann sofort eine Glukose-Infusion verabreichen. Als Notfallkontakt wird der [Ehemann](RelatedPerson-PeterSchmidt.html) unter der Nummer +41 44 321 65 87 kontaktiert. Als weitere Angehörige ist [Anna Müller](RelatedPerson-AnnaMueller.html) unter +41 31 456 78 90 hinterlegt.
 
-Die Patientin erholt sich schnell und kann nach Stabilisierung zu Hause bleiben. Die Hypoglykämie war vermutlich durch eine vergessene Mahlzeit bei normaler Metformin-Dosis entstanden.
+Die Patientin erholt sich schnell und kann nach Stabilisierung zu Hause bleiben. Die Hypoglykämie war vermutlich durch eine vergessene Mahlzeit bei normaler Metformin-Dosis entstanden. Der behandelnde [Hausarzt Dr. Müller](Practitioner-DrMueller.html) wird über den Vorfall informiert.
+
+Das vollständige [eNotfallpass Bundle](Bundle-eNotfallpass-MariaSchmidt.html) für Maria Schmidt zeigt alle relevanten medizinischen Informationen strukturiert und referenzierbar.
 
 ### Use Case 2: Herzschrittmacher-Patient mit MRT-Indikation
 
@@ -46,14 +52,3 @@ Der Patient trägt zudem ein [Implantat eines künstlichen Hüftgelenks](Device-
 
 Als Betreuerin ist seine Tochter Elisabeth Zimmermann unter +41 61 789 45 23 eingetragen, die auch eine Vollmacht für medizinische Entscheidungen besitzt.
 
-### Use Case 5: Anaphylaxie bei bekannter Nussallergie
-
-Tim Huber, 16 Jahre alt, wird nach dem Verzehr eines Schokoriegels in der Schule mit schwerer Atemnot und Hautausschlag in die Notaufnahme gebracht. Der eNotfallpass zeigt eine [schwere Nussallergie](AllergyIntolerance-Nuts.html), insbesondere gegen Haselnüsse und Erdnüsse.
-
-Die allergische Reaktion manifestiert sich als [Anaphylaxie](AllergyIntolerance-Nuts.html#reaction) mit Urtikaria, Bronchospasmus und beginnendem Kreislaufschock. Der Patient trägt normalerweise einen EpiPen bei sich, der jedoch zu Hause vergessen wurde.
-
-Die Notfallbehandlung mit Adrenalin, Kortison und H1-Antihistaminika kann sofort eingeleitet werden. Die [Impfungen](Immunization-Tetanus.html) sind aktuell, sodass keine zusätzliche Tetanus-Prophylaxe erforderlich ist.
-
-Als Notfallkontakte sind die Eltern [Sandra Huber](Patient-TimHuber.html#contact) (+41 44 987 65 43) und [Martin Huber](Patient-TimHuber.html#contact) (+41 79 123 45 67) hinterlegt, die sofort informiert werden.
-
-Der Patient erholt sich vollständig und wird nach 6 Stunden Beobachtung entlassen. Eine erneute Schulung über Allergenvermeidung und EpiPen-Anwendung wird empfohlen.
