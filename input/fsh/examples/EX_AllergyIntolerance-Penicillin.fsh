@@ -22,4 +22,4 @@ Description: "Beispiel einer Penicillin-Allergie bei Maria Schmidt"
 * reaction.manifestation[1] = $sct#271807003 "Eruption of skin"
 * reaction.manifestation[2] = $sct#267036007 "Dyspnea"
 * reaction.severity = #severe
-* reaction.note = "Notfallbehandlung mit Adrenalin erforderlich gewesen. Eltern berichteten über Bewusstlosigkeit und Kreislaufschock."
+* reaction.note.text = "Notfallbehandlung mit Adrenalin erforderlich gewesen. Eltern berichteten über Bewusstlosigkeit und Kreislaufschock."

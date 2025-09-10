@@ -16,15 +16,6 @@ Description: "Blutzucker-Messung bei Hypoglykämie-Notfall"
 * valueQuantity.system = $ucum
 * valueQuantity.code = #mg/dL
 
-* interpretation = $v3-ObservationInterpretation#L "Low"
 * note.text = "Schwere Hypoglykämie. Patientin verwirrt aber ansprechbar. Sofortige Glukose-Gabe indiziert."
 
-* referenceRange.low.value = 70
-* referenceRange.low.unit = "mg/dl"
-* referenceRange.low.system = $ucum
-* referenceRange.low.code = #mg/dL
-* referenceRange.high.value = 100
-* referenceRange.high.unit = "mg/dl" 
-* referenceRange.high.system = $ucum
-* referenceRange.high.code = #mg/dL
-* referenceRange.text = "Nüchtern: 70-100 mg/dl"
+

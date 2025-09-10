@@ -10,7 +10,7 @@ Description: "Vollständiges eNotfallpass Bundle für Maria Schmidt"
 * timestamp = "2025-09-10T08:00:00+02:00"
 
 // Composition als erstes Entry
-* entry[0].fullUrl = "http://fhir.ch/ig/enotfallpass/Composition/eNotfallpass-Composition-MariaSchmidt"
+* entry[0].fullUrl = "http://fhir.ch/ig/enotfallpass/Composition/Composition-emr-MariaSchmidt"
 * entry[0].resource = Composition-eNotfallpass-MariaSchmidt
 
 // Patient
