@@ -8,7 +8,6 @@ Description: "Metformin Therapie bei Diabetes - KONTRAINDIZIERT bei Niereninsuff
 * statusReason = $sct#182840001 "Drug treatment stopped - medical advice"
 * medicationCodeableConcept = $atc#A10BA02 "Metformin"
 * subject = Reference(Patient-RudolfZimmermann)
-* effectiveEnd = "2025-09-10"
 * dateAsserted = "2025-09-10"
 * informationSource = Reference(Practitioner-DrWeber)
 

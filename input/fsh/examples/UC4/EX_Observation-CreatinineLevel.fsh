@@ -8,7 +8,6 @@ Description: "Aktueller Kreatininwert zeigt schwere Niereninsuffizienz"
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $loinc#2160-0 "Creatinine [Mass/volume] in Serum or Plasma"
 * subject = Reference(Patient-RudolfZimmermann)
-* effectiveDate = "2025-09-10"
 * performer = Reference(Practitioner-DrWeber)
 
 * valueQuantity.value = 2.8
