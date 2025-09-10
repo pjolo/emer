@@ -29,7 +29,7 @@ The emergency report is designed to give medical professionals quick and structu
 * **Medical history**: Diagnoses and problems
 * **Current medication**: Information and dosage of medications
 * **Allergies and intolerances**: Known allergic reactions and intolerances
-* **Implants **: Medical devices
+* **Implants**: Medical devices
 * **Resuscitation status**: Resuscitation status of the person
 * **Pregnancy**: Current pregnancy information
 * **Risk factors**: Risks relevant to treatment
