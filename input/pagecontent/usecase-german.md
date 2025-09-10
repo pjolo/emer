@@ -16,13 +16,18 @@ Das vollständige [eNotfallpass Bundle](Bundle-eNotfallpass-MariaSchmidt.html) f
 
 ### Use Case 2: Herzschrittmacher-Patient mit MRT-Indikation
 
-Hans Meier, 72 Jahre alt, stürzt beim Wandern und wird mit Verdacht auf eine Schenkelhalsfraktur ins Spital eingeliefert. Eine MRT-Untersuchung zur genauen Diagnosestellung ist indiziert.
+[Hans Meier](Patient-HansMeier.html), 72 Jahre alt, stürzt beim Wandern und wird mit Verdacht auf eine Schenkelhalsfraktur ins Spital eingeliefert. Eine MRT-Untersuchung zur genauen Diagnosestellung ist indiziert.
 
-Aus dem eNotfallpass geht hervor, dass dem Patienten 2020 ein [Herzschrittmacher](Device-Pacemaker.html) 
+Aus dem eNotfallpass geht hervor, dass dem Patienten 2020 ein [Herzschrittmacher](Device-Herzschrittmacher.html).
 
 Diese Information ermöglicht es dem Radiologen, die MRT-Untersuchung nach entsprechenden Sicherheitsprotokollen durchzuführen, ohne den Schrittmacher zuvor deaktivieren zu müssen. Die letzte Schrittmacher-Kontrolle fand am 01.09.2025 statt.
 
-Zusätzlich ist dokumentiert, dass der Patient Marcumar zur Antikoagulation einnimmt, was bei einer möglichen Operation berücksichtigt werden muss.
+Zusätzlich ist dokumentiert, dass der Patient [Marcumar zur Antikoagulation](MedicationStatement-Marcumar.html) einnimmt, was bei einer möglichen Operation berücksichtigt werden muss. 
+
+Der [behandelnde Unfallchirurg](Practitioner-DrUnfallchirurg.html) kann die MRT-Untersuchung sicher durchführen und bei Bedarf die [Kardiologin Dr. Zimmermann](Practitioner-DrKardiologe.html) für die perioperative Antikoagulations-Planung konsultieren. Als Notfallkontakt wird [Ehefrau Elisabeth](RelatedPerson-ElisabethMeier.html) unter +41 31 456 78 90 informiert.
+
+Das vollständige [eNotfallpass Bundle für Hans Meier](Bundle-eNotfallpass-HansMeier.html) enthält alle relevanten Informationen für die sichere Behandlung.
+
 
 ### Use Case 3: Schwangere mit Reanimationsverfügung
 

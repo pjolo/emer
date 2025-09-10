@@ -49,13 +49,6 @@ Description: "Composition für den eNotfallpass von Hans Meier"
 * section[3].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Implantate:</p><ul><li><strong>MRT-SICHER:</strong> Herzschrittmacher Boston Scientific Accolade MRI (Modell L331)</li><li>Seriennummer: PM987654321</li><li>Implantiert: 15.03.2020</li><li>Letzte Kontrolle: 01.09.2025</li></ul></div>"
 * section[3].entry = Reference(Device-Herzschrittmacher)
 
-// Laboratory Results Section
-* section[4].title = "Laborwerte"
-* section[4].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
-* section[4].text.status = #generated
-* section[4].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Aktuelle Laborwerte:</p><ul><li>INR: 2.4 (05.09.2025) - im Zielbereich</li></ul></div>"
-* section[4].entry = Reference(Observation-INR)
-
 // Care Team Section
 * section[5].title = "Behandlungsteam"
 * section[5].code = $loinc#85847-2 "Provider information"

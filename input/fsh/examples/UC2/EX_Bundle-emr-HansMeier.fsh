@@ -33,10 +33,6 @@ Description: "Vollständiges eNotfallpass Bundle für Hans Meier"
 * entry[5].fullUrl = "http://fhir.ch/ig/enotfallpass/Device/Device-Herzschrittmacher"
 * entry[5].resource = Device-Herzschrittmacher
 
-// INR Observation
-* entry[6].fullUrl = "http://fhir.ch/ig/enotfallpass/Observation/Observation-INR"
-* entry[6].resource = Observation-INR
-
 // RelatedPerson (Ehefrau)
 * entry[7].fullUrl = "http://fhir.ch/ig/enotfallpass/RelatedPerson/RelatedPerson-ElisabethMeier"
 * entry[7].resource = RelatedPerson-ElisabethMeier
