@@ -16,15 +16,5 @@ Description: "Überwachung der fetalen Herzfrequenz nach Unfall"
 * valueQuantity.system = $ucum
 * valueQuantity.code = #/min
 
-* interpretation = $v3-ObservationInterpretation#N "Normal"
 * note.text = "Fetale Herzfrequenz normal und stabil. CTG zeigt regelrechtes Muster ohne pathologische Veränderungen."
 
-* referenceRange.low.value = 120
-* referenceRange.low.unit = "beats/min"
-* referenceRange.low.system = $ucum
-* referenceRange.low.code = #/min
-* referenceRange.high.value = 160
-* referenceRange.high.unit = "beats/min"
-* referenceRange.high.system = $ucum
-* referenceRange.high.code = #/min
-* referenceRange.text = "Normal: 120-160 bpm"

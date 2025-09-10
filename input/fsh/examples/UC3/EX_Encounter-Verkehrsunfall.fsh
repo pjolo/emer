@@ -34,3 +34,5 @@ Description: "Notfall-Behandlung nach Verkehrsunfall"
 
 * hospitalization.admitSource = $sct#309902002 "Emergency department"
 * hospitalization.dischargeDisposition = $sct#306689006 "Discharge to home"
+
+
