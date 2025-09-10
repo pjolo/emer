@@ -11,7 +11,7 @@ Description: "Vollständiges eNotfallpass Bundle für Maria Schmidt"
 
 // Composition als erstes Entry
 * entry[0].fullUrl = "http://fhir.ch/ig/enotfallpass/Composition/Composition-emr-MariaSchmidt"
-* entry[0].resource = Composition-eNotfallpass-MariaSchmidt
+* entry[0].resource = Composition-emr-MariaSchmidt
 
 // Patient
 * entry[1].fullUrl = "http://fhir.ch/ig/enotfallpass/Patient/Patient-MariaSchmidt"
@@ -27,7 +27,7 @@ Description: "Vollständiges eNotfallpass Bundle für Maria Schmidt"
 
 // Metformin Medication
 * entry[4].fullUrl = "http://fhir.ch/ig/enotfallpass/MedicationStatement/MedicationStatement-Metformin"
-* entry[4].resource = MedicationStatement-Metformin
+* entry[4].resource = ChEmrMedicationStatement
 
 // Penicillin Allergie
 * entry[5].fullUrl = "http://fhir.ch/ig/enotfallpass/AllergyIntolerance/AllergyIntolerance-Penicillin"

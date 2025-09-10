@@ -41,7 +41,7 @@ Description: "Composition für den eNotfallpass von Maria Schmidt"
 * section[2].code = $loinc#10160-0 "History of Medication use Narrative"
 * section[2].text.status = #generated
 * section[2].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Aktuelle Medikation:</p><ul><li>Metformin 1000 mg zweimal täglich zu den Mahlzeiten (seit 2015-06-15)</li></ul></div>"
-* section[2].entry = Reference(MedicationStatement-Metformin)
+* section[2].entry = Reference(ChEmrMedicationStatement)
 
 // Allergies Section
 * section[3].title = "Allergien und Unverträglichkeiten"
