@@ -1,4 +1,4 @@
-Profile: ChEmrMedcationStatement
+Profile: ChEmrMedicationStatement
 Parent: $CHIPSMedicationStatement
 Id: ch-emer-medicationstatement
 Title: "Emergency Record MedicationStatement"
