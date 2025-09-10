@@ -7,7 +7,6 @@ Description: "Diuretikum Therapie"
 * status = #active
 * medicationCodeableConcept = $atc#C03CA01 "Furosemide"
 * subject = Reference(Patient-RudolfZimmermann)
-* effectiveDateTime = "2018-07-01"
 * dateAsserted = "2025-09-01"
 * informationSource = Reference(Practitioner-DrWeber)
 

@@ -7,7 +7,6 @@ Description: "Beta-Blocker Therapie"
 * status = #active
 * medicationCodeableConcept = $atc#C07AB02 "Metoprolol"
 * subject = Reference(Patient-RudolfZimmermann)
-* effectiveDateTime = "2018-06-20"
 * dateAsserted = "2025-09-01"
 * informationSource = Reference(Practitioner-DrWeber)
 

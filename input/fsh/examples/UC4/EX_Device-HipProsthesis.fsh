@@ -23,7 +23,6 @@ Description: "Künstliches Hüftgelenk links"
 
 * note.text = "Totalendoprothese Hüfte links, implantiert am 15.04.2018 im Kantonsspital Basel. Grund: Coxarthrose. Komplikationsloser Verlauf. Bei Bildgebung zu beachten: Metallartefakte möglich."
 
-* implantDate = "2018-04-15"
 * expirationDate = "2038-04-15"
 
 * safety = $sct#182857002 "MR conditional"

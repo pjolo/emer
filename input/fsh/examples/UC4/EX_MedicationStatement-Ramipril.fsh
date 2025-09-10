@@ -7,7 +7,6 @@ Description: "ACE-Hemmer Therapie"
 * status = #active
 * medicationCodeableConcept = $atc#C09AA05 "Ramipril"
 * subject = Reference(Patient-RudolfZimmermann)
-* effectiveDateTime = "2018-06-20"
 * dateAsserted = "2025-09-01"
 * informationSource = Reference(Practitioner-DrWeber)
 
