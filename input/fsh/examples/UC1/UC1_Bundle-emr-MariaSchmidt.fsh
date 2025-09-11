@@ -1,4 +1,4 @@
-Instance: UC1-Bundle-eNotfallpass-MariaSchmidt
+Instance: UC1-Bundle-emr-MariaSchmidt
 InstanceOf: Bundle
 Usage: #example
 Title: "eNotfallpass Bundle - Maria Schmidt"
