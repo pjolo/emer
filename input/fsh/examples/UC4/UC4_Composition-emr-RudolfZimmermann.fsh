@@ -1,4 +1,4 @@
-Instance: UC4-Composition-eNotfallpass-RudolfZimmermann
+Instance: UC4-Composition-emr-RudolfZimmermann
 InstanceOf: ChEmrComposition
 Usage: #example
 Title: "eNotfallpass Composition - Rudolf Zimmermann"
