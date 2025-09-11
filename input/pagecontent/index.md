@@ -41,12 +41,12 @@ The Implementation Guide defines the following main profiles:
 
 | Profil | Beschreibung | Parent |
 |--------|--------------|---------|
-| [eNotfallpassPatient](StructureDefinition-enotfallpass-patient.html) | Patient mit Notfallkontakten | CH IPS Patient |
-| [eNotfallpassCondition](StructureDefinition-enotfallpass-condition.html) | Probleme und Diagnosen | CH IPS Condition |
-| [eNotfallpassMedicationStatement](StructureDefinition-enotfallpass-medicationstatement.html) | Aktuelle Medikation | MedicationStatement |
-| [eNotfallpassAllergyIntolerance](StructureDefinition-enotfallpass-allergyintolerance.html) | Allergien und Unverträglichkeiten | CH IPS AllergyIntolerance |
-| [eNotfallpassDevice](StructureDefinition-enotfallpass-device.html) | Implantate und Hilfsmittel | CH IPS Device |
-| [eNotfallpassObservation](StructureDefinition-enotfallpass-observation.html) | Verschiedene Beobachtungen | CH Core Observation |
+| [ChEmrPatient](https://pjolo.github.io/emr/StructureDefinition-ch-emr-patient.html) | Demographic data and contact information | CH IPS Patient |
+| [ChEmrCondition](https://pjolo.github.io/emr/StructureDefinition-ch-emr-condition.html) | Problems and diagnoses | CH IPS Condition |
+| [ChEmrMedicationStatement](https://pjolo.github.io/emr/StructureDefinition-ch-emer-medicationstatement.html) | Current medication | MedicationStatement |
+| [ChEmrAllergyIntolerance](https://pjolo.github.io/emr/StructureDefinition-ch-emr-allergyintolerance.html) | Allergies and intolerances | CH IPS AllergyIntolerance |
+| [ChEmrDevice](https://pjolo.github.io/emr/StructureDefinition-ch-emr-device.html) | Implants  | CH IPS Device |
+| [ChEmrObservation](https://pjolo.github.io/emr/StructureDefinition-ch-emr-observation.html) | Various observations | CH Core Observation |
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
