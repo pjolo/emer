@@ -4,7 +4,7 @@ Usage: #example
 Title: "eNotfallpass Composition - Rudolf Zimmermann"
 Description: "Composition für den eNotfallpass von Rudolf Zimmermann"
 
-* identifier.system = "http://fhir.ch/ig/enotfallpass/composition-id"
+* identifier.system = "http://fhir.ch/ig/emr/composition-id"
 * identifier.value = "eNP-Comp-RZ-20250910-001"
 
 * status = #final
