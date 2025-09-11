@@ -2,21 +2,21 @@ Diese Seite beschreibt realistische medizinische Szenarien für die Verwendung d
 
 ### Use Case 1: Diabetikerin mit Penicillin-Allergie
 
-[Maria Schmidt](pjolo/emr/Patient-UC1-Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](pjolo/emr/RelatedPerson-PeterSchmidt.html) alarmiert den Rettungsdienst um 14:30 Uhr.
+[Maria Schmidt](/pjolo.github.io/emr/Patient-UC1-Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](/pjolo.github.io/emr/RelatedPerson-PeterSchmidt.html) alarmiert den Rettungsdienst um 14:30 Uhr.
 
-Bei Ankunft des [Notarztes](pjolo/emr/Practitioner-UC1-Practitioner-NotarztBecker.html) ist die Patientin ansprechbar, aber verwirrt. Der [Blutzucker zeigt einen Wert von 45 mg/dl](pjolo/emr/Observation-UC1-Observation-BloodGlucose-Emergency.html), was auf eine schwere Hypoglykämie hindeutet. Aus dem eNotfallpass ist ersichtlich, dass Maria an [Diabetes mellitus Typ 2](pjolo/emr/Condition-UC1-Condition-Diabetes.html) leidet, der seit 2015 mit [Metformin](pjolo/emr/MedicationStatement-UC1-MedicationStatement-Metformin.html) behandelt wird. Der [letzte HbA1c-Wert betrug 6.8%](pjolo/emr/Observation-UC1-Observation-HbA1c.html).
+Bei Ankunft des [Notarztes](/pjolo.github.io/emr/Practitioner-UC1-Practitioner-NotarztBecker.html) ist die Patientin ansprechbar, aber verwirrt. Der [Blutzucker zeigt einen Wert von 45 mg/dl](/pjolo.github.io/emr/Observation-UC1-Observation-BloodGlucose-Emergency.html), was auf eine schwere Hypoglykämie hindeutet. Aus dem eNotfallpass ist ersichtlich, dass Maria an [Diabetes mellitus Typ 2](pjolo/emr/Condition-UC1-Condition-Diabetes.html) leidet, der seit 2015 mit [Metformin](/pjolo.github.io/emr/MedicationStatement-UC1-MedicationStatement-Metformin.html) behandelt wird. Der [letzte HbA1c-Wert betrug 6.8%](/pjolo.github.io/emr/Observation-UC1-Observation-HbA1c.html).
 
-Kritisch ist die dokumentierte [Penicillin-Allergie](pjolo/emr/AllergyIntolerance-UC1-AllergyIntolerance-Penicillin.html) mit anaphylaktischer Reaktion in der Kindheit. Diese Information verhindert die versehentliche Gabe von Beta-Lactam-Antibiotika bei einer möglichen Sekundärinfektion.
+Kritisch ist die dokumentierte [Penicillin-Allergie](/pjolo.github.io/emr/AllergyIntolerance-UC1-AllergyIntolerance-Penicillin.html) mit anaphylaktischer Reaktion in der Kindheit. Diese Information verhindert die versehentliche Gabe von Beta-Lactam-Antibiotika bei einer möglichen Sekundärinfektion.
 
-Der Notarzt kann sofort eine Glukose-Infusion verabreichen. Als Notfallkontakt wird der [Ehemann](pjolo/emr/RelatedPerson-UC1-RelatedPerson-PeterSchmidt.html) unter der Nummer +41 44 321 65 87 kontaktiert. Als weitere Angehörige ist [Anna Müller](pjolo/emr/RelatedPerson-UC1-RelatedPerson-AnnaMueller.html) unter +41 31 456 78 90 hinterlegt.
+Der Notarzt kann sofort eine Glukose-Infusion verabreichen. Als Notfallkontakt wird der [Ehemann](/pjolo.github.io/emr/RelatedPerson-UC1-RelatedPerson-PeterSchmidt.html) unter der Nummer +41 44 321 65 87 kontaktiert. Als weitere Angehörige ist [Anna Müller](/pjolo.github.io/emr/RelatedPerson-UC1-RelatedPerson-AnnaMueller.html) unter +41 31 456 78 90 hinterlegt.
 
-Die Patientin erholt sich schnell und kann nach Stabilisierung zu Hause bleiben. Die Hypoglykämie war vermutlich durch eine vergessene Mahlzeit bei normaler Metformin-Dosis entstanden. Der behandelnde [Hausarzt Dr. Müller](pjolo/emr/Practitioner-UC1-Practitioner-DrMueller.html) wird über den Vorfall informiert.
+Die Patientin erholt sich schnell und kann nach Stabilisierung zu Hause bleiben. Die Hypoglykämie war vermutlich durch eine vergessene Mahlzeit bei normaler Metformin-Dosis entstanden. Der behandelnde [Hausarzt Dr. Müller](/pjolo.github.io/emr/Practitioner-UC1-Practitioner-DrMueller.html) wird über den Vorfall informiert.
 
-Das vollständige [eNotfallpass Bundle](pjolo/emr/Bundle-UC1-Bundle-emr-MariaSchmidt.html) für Maria Schmidt zeigt alle relevanten medizinischen Informationen strukturiert und referenzierbar.
+Das vollständige [eNotfallpass Bundle](/pjolo.github.io/emr/Bundle-UC1-Bundle-emr-MariaSchmidt.html) für Maria Schmidt zeigt alle relevanten medizinischen Informationen strukturiert und referenzierbar.
 
 ### Use Case 2: Herzschrittmacher-Patient mit MRT-Indikation
 
-[Hans Meier](Patient-HansMeier.html), 72 Jahre alt, stürzt beim Wandern und wird mit Verdacht auf eine Schenkelhalsfraktur ins Spital eingeliefert. Eine MRT-Untersuchung zur genauen Diagnosestellung ist indiziert.
+[Hans Meier](/pjolo.github.io/emr/Patient-UC2-Patient-HansMeier.html), 72 Jahre alt, stürzt beim Wandern und wird mit Verdacht auf eine Schenkelhalsfraktur ins Spital eingeliefert. Eine MRT-Untersuchung zur genauen Diagnosestellung ist indiziert.
 
 Aus dem eNotfallpass geht hervor, dass dem Patienten 2020 ein [Herzschrittmacher](Device-Herzschrittmacher.html).
 
