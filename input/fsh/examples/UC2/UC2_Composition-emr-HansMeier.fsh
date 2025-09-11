@@ -1,4 +1,4 @@
-Instance: UC2-Composition-eNotfallpass-HansMeier
+Instance: UC2-Composition-emr-HansMeier
 InstanceOf: ChEmrComposition
 Usage: #example
 Title: "eNotfallpass Composition - Hans Meier"
