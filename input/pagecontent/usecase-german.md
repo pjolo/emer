@@ -18,7 +18,7 @@ Das vollständige [eNotfallpass Bundle](https://pjolo.github.io/emr/Bundle-UC1-B
 
 [Hans Meier](https://pjolo.github.io/emr/Patient-UC2-Patient-HansMeier.html), 72 Jahre alt, stürzt beim Wandern und wird mit Verdacht auf eine Schenkelhalsfraktur ins Spital eingeliefert. Eine MRT-Untersuchung zur genauen Diagnosestellung ist indiziert.
 
-Aus dem eNotfallpass geht hervor, dass dem Patienten 2020 ein [Herzschrittmacher](https://pjolo.github.io/emr/Device-UC2-Device-Herzschrittmacher.html).
+Aus dem eNotfallpass geht hervor, dass dem Patienten 2020 ein [Herzschrittmacher](https://pjolo.github.io/emr/Device-UC2-Device-Herzschrittmacher.html) implantiert wurde.
 
 Diese Information ermöglicht es dem Radiologen, die MRT-Untersuchung nach entsprechenden Sicherheitsprotokollen durchzuführen, ohne den Schrittmacher zuvor deaktivieren zu müssen. Die letzte Schrittmacher-Kontrolle fand am 01.09.2025 statt.
 
