@@ -43,7 +43,7 @@ The Implementation Guide defines the following main profiles:
 |--------|--------------|---------|
 | [ChEmrPatient](https://pjolo.github.io/emr/StructureDefinition-ch-emr-patient.html) | Demographic data and contact information | CH IPS Patient |
 | [ChEmrCondition](https://pjolo.github.io/emr/StructureDefinition-ch-emr-condition.html) | Problems and diagnoses | CH IPS Condition |
-| [ChEmrMedicationStatement](https://pjolo.github.io/emr/StructureDefinition-ch-emer-medicationstatement.html) | Current medication | MedicationStatement |
+| [ChEmrMedicationStatement](https://pjolo.github.io/emr/StructureDefinition-ch-emer-medicationstatement.html) | Current medication | CH IPS MedicationStatement |
 | [ChEmrAllergyIntolerance](https://pjolo.github.io/emr/StructureDefinition-ch-emr-allergyintolerance.html) | Allergies and intolerances | CH IPS AllergyIntolerance |
 | [ChEmrDevice](https://pjolo.github.io/emr/StructureDefinition-ch-emr-device.html) | Implants  | CH IPS Device |
 | [ChEmrObservation](https://pjolo.github.io/emr/StructureDefinition-ch-emr-observation.html) | Various observations | CH Core Observation |
