@@ -1,4 +1,4 @@
-Instance: AllergyIntolerance-Penicillin
+Instance: UC1-AllergyIntolerance-Penicillin
 InstanceOf: ChEmrAllergyIntolerance
 Usage: #example
 Title: "Penicillin-Allergie"

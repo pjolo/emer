@@ -1,4 +1,4 @@
-Instance: UC2-Bundle-eNotfallpass-HansMeier
+Instance: UC2-Bundle-emr-HansMeier
 InstanceOf: Bundle
 Usage: #example
 Title: "eNotfallpass Bundle - Hans Meier"
