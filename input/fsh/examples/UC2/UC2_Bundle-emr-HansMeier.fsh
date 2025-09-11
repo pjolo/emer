@@ -10,7 +10,7 @@ Description: "Vollständiges eNotfallpass Bundle für Hans Meier"
 * timestamp = "2025-09-10T11:00:00+02:00"
 
 // Composition als erstes Entry
-* entry[0].fullUrl = "http://fhir.ch/ig/enotfallpass/Composition/UC2-Composition-eNotfallpass-HansMeier"
+* entry[0].fullUrl = "http://fhir.ch/ig/enotfallpass/Composition/UC2-Composition-emr-HansMeier"
 * entry[0].resource = UC2-Composition-emr-HansMeier
 
 // Patient
