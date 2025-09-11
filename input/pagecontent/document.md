@@ -4,12 +4,12 @@ This exchange format is defined as a document type that corresponds to a Bundle 
 
 ### Bundle structure
 
-Das [eNotfallpass Bundle](StructureDefinition-enotfallpass-bundle.html) definition for the FHIR representation of the emergency record in Switzerland.
+[eNotfallpass Bundle](https://pjolo.github.io/emr/StructureDefinition-notfallpass-composition.html) definition for the FHIR representation of the emergency record in Switzerland.
 
 ### Composition 
-[Composition](StructureDefinition-enotfallpass-composition.html) 
+[Composition](https://pjolo.github.io/emr/StructureDefinition-notfallpass-composition.html) 
 
 ### Example bundle
 
-A complete example of an [emergency record Bundle](Bundle-enotfallpass-bundle-example.html) shows the practical implementation of the document structure.
+A complete example of an [emergency record Bundle](https://pjolo.github.io/emr/Bundle-UC2-Bundle-emr-HansMeier.html) shows the practical implementation of the document structure.
 
