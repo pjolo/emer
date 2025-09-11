@@ -2,17 +2,17 @@ Diese Seite beschreibt realistische medizinische Szenarien für die Verwendung d
 
 ### Use Case 1: Diabetikerin mit Penicillin-Allergie
 
-[Maria Schmidt](Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](RelatedPerson-PeterSchmidt.html) alarmiert den Rettungsdienst um 14:30 Uhr.
+[Maria Schmidt](pjolo/emr/Patient-MariaSchmidt.html), 47 Jahre alt, wird bewusstlos in ihrer Wohnung an der Musterstrasse 123 in 8001 Zürich aufgefunden. Ihr Ehemann [Peter Schmidt](pjolo/emr/RelatedPerson-PeterSchmidt.html) alarmiert den Rettungsdienst um 14:30 Uhr.
 
-Bei Ankunft des [Notarztes](Practitioner-NotarztBecker.html) ist die Patientin ansprechbar, aber verwirrt. Der [Blutzucker zeigt einen Wert von 45 mg/dl](Observation-BloodGlucose-Emergency.html), was auf eine schwere Hypoglykämie hindeutet. Aus dem eNotfallpass ist ersichtlich, dass Maria an [Diabetes mellitus Typ 2](Condition-Diabetes.html) leidet, der seit 2015 mit [Metformin](MedicationStatement-Metformin.html) behandelt wird. Der [letzte HbA1c-Wert betrug 6.8%](Observation-HbA1c.html).
+Bei Ankunft des [Notarztes](pjolo/emr/Practitioner-NotarztBecker.html) ist die Patientin ansprechbar, aber verwirrt. Der [Blutzucker zeigt einen Wert von 45 mg/dl](pjolo/emr/Observation-BloodGlucose-Emergency.html), was auf eine schwere Hypoglykämie hindeutet. Aus dem eNotfallpass ist ersichtlich, dass Maria an [Diabetes mellitus Typ 2](pjolo/emr/Condition-Diabetes.html) leidet, der seit 2015 mit [Metformin](pjolo/emr/MedicationStatement-Metformin.html) behandelt wird. Der [letzte HbA1c-Wert betrug 6.8%](pjolo/emr/Observation-HbA1c.html).
 
-Kritisch ist die dokumentierte [Penicillin-Allergie](AllergyIntolerance-Penicillin.html) mit anaphylaktischer Reaktion in der Kindheit. Diese Information verhindert die versehentliche Gabe von Beta-Lactam-Antibiotika bei einer möglichen Sekundärinfektion.
+Kritisch ist die dokumentierte [Penicillin-Allergie](pjolo/emr/AllergyIntolerance-Penicillin.html) mit anaphylaktischer Reaktion in der Kindheit. Diese Information verhindert die versehentliche Gabe von Beta-Lactam-Antibiotika bei einer möglichen Sekundärinfektion.
 
-Der Notarzt kann sofort eine Glukose-Infusion verabreichen. Als Notfallkontakt wird der [Ehemann](RelatedPerson-PeterSchmidt.html) unter der Nummer +41 44 321 65 87 kontaktiert. Als weitere Angehörige ist [Anna Müller](RelatedPerson-AnnaMueller.html) unter +41 31 456 78 90 hinterlegt.
+Der Notarzt kann sofort eine Glukose-Infusion verabreichen. Als Notfallkontakt wird der [Ehemann](pjolo/emr/RelatedPerson-PeterSchmidt.html) unter der Nummer +41 44 321 65 87 kontaktiert. Als weitere Angehörige ist [Anna Müller](pjolo/emr/RelatedPerson-AnnaMueller.html) unter +41 31 456 78 90 hinterlegt.
 
-Die Patientin erholt sich schnell und kann nach Stabilisierung zu Hause bleiben. Die Hypoglykämie war vermutlich durch eine vergessene Mahlzeit bei normaler Metformin-Dosis entstanden. Der behandelnde [Hausarzt Dr. Müller](Practitioner-DrMueller.html) wird über den Vorfall informiert.
+Die Patientin erholt sich schnell und kann nach Stabilisierung zu Hause bleiben. Die Hypoglykämie war vermutlich durch eine vergessene Mahlzeit bei normaler Metformin-Dosis entstanden. Der behandelnde [Hausarzt Dr. Müller](pjolo/emr/Practitioner-DrMueller.html) wird über den Vorfall informiert.
 
-Das vollständige [eNotfallpass Bundle](Bundle-eNotfallpass-MariaSchmidt.html) für Maria Schmidt zeigt alle relevanten medizinischen Informationen strukturiert und referenzierbar.
+Das vollständige [eNotfallpass Bundle](pjolo/emr/Bundle-eNotfallpass-MariaSchmidt.html) für Maria Schmidt zeigt alle relevanten medizinischen Informationen strukturiert und referenzierbar.
 
 ### Use Case 2: Herzschrittmacher-Patient mit MRT-Indikation
 
