@@ -4,29 +4,33 @@ Usage: #example
 Title: "Dr. med. Hans Müller"
 Description: "Hausarzt von Maria Schmidt"
 
-// Nur EIN GLN Identifier (max = 1)
-* identifier[GLN].system = $oid-gln
-* identifier[GLN].value = "7601000234567"
+// Identifier
+* identifier[0].type = http://terminology.hl7.org/CodeSystem/v2-0203#GLN
+* identifier[0].system = $oid-gln
+* identifier[0].value = "7601000234567"
 
-// ZSR Identifier (separater Slice)
-* identifier[ZSR].system = $oid-zsr
-* identifier[ZSR].value = "A123456"
+* identifier[1].type = http://terminology.hl7.org/CodeSystem/v2-0203#PRN
+* identifier[1].system = $oid-zsr
+* identifier[1].value = "A123456"
 
 * active = true
 
-* name[official].use = #official
-* name[official].family = "Müller"
-* name[official].given = "Hans"
-* name[official].prefix = "Dr. med."
+// Name (ohne Slice!)
+* name.use = #official
+* name.family = "Müller"
+* name.given = "Hans"
+* name.prefix = "Dr. med."
 
-* telecom[phone].system = #phone
-* telecom[phone].value = "+41 44 555 12 34"
-* telecom[phone].use = #work
+// Telecom
+* telecom[0].system = #phone
+* telecom[0].value = "+41 44 555 12 34"
+* telecom[0].use = #work
 
-* telecom[email].system = #email
-* telecom[email].value = "h.mueller@praxis-zuerich.ch"
-* telecom[email].use = #work
+* telecom[1].system = #email
+* telecom[1].value = "h.mueller@praxis-zuerich.ch"
+* telecom[1].use = #work
 
+// Address
 * address.line = "Bahnhofstrasse 15"
 * address.city = "Zürich"
 * address.postalCode = "8001"
@@ -35,6 +39,7 @@ Description: "Hausarzt von Maria Schmidt"
 * gender = #male
 * birthDate = "1965-04-12"
 
-* qualification[medicalSpecialty].code = $sct#408443003 "General medical practice"
-* qualification[medicalSpecialty].period.start = "1995-06-01"
-* qualification[medicalSpecialty].issuer.display = "Medizinische Fakultät Universität Zürich"
+// Qualification
+* qualification.code = $sct#408443003 "General medical practice"
+* qualification.period.start = "1995-06-01"
+* qualification.issuer.display = "Medizinische Fakultät Universität Zürich"
