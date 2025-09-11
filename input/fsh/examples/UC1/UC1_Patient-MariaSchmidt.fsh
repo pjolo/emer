@@ -45,7 +45,7 @@ Description: "Beispiel einer Patientin für den eNotfallpass"
 * contact[0].address.postalCode = "8001"
 * contact[0].address.country = "CH"
 
-* contact[1].relationship = $v3-RoleCode#N
+* contact[1].relationship = $v3-RoleCode#ECON
 * contact[1].name.family = "Müller"
 * contact[1].name.given = "Anna"
 * contact[1].telecom[0].system = #phone
