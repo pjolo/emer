@@ -5,8 +5,8 @@
 # https://confluence.hl7.org/display/FHIR/NPM+Package+Specification#NPMPackageSpecification-Packagename
 id: ch.fhir.ig.ch-ig
 canonical: http://fhir.ch/ig/ch-ig
-name: CH EMER
-title: "CH EMER (R4)"
+name: CH EMR
+title: "CH EMR (R4)"
 description: Implementation Guide CH IG (R4) for ...
 status: draft
 license: CC0-1.0
