@@ -4,13 +4,14 @@ Usage: #example
 Title: "Dr. med. Hans Müller"
 Description: "Hausarzt von Maria Schmidt"
 
-// Identifier
-* identifier[0].system = $oid-gln
-* identifier[0].value = "7601000234567"
+// GLN Identifier - muss explizit dem GLN Slice zugeordnet werden
+* identifier[GLN].system = $oid-gln
+* identifier[GLN].value = "7601000234567"
 
-* identifier[1].type = http://terminology.hl7.org/CodeSystem/v2-0203#PRN
-* identifier[1].system = $oid-zsr
-* identifier[1].value = "A123456"
+// ZSR Identifier - separater Slice
+* identifier[ZSR].type = http://terminology.hl7.org/CodeSystem/v2-0203#PRN
+* identifier[ZSR].system = $oid-zsr
+* identifier[ZSR].value = "A123456"
 
 * active = true
 
