@@ -4,7 +4,7 @@ Usage: #example
 Title: "eNotfallpass Composition - Maria Schmidt"
 Description: "Composition für den eNotfallpass von Maria Schmidt"
 
-* identifier.system = "http://fhir.ch/ig/enotfallpass/composition-id"
+* identifier.system = "http://fhir.ch/ig/emr/composition-id"
 * identifier.value = "eNP-Comp-MS-20250910-001"
 
 * status = #final
@@ -14,11 +14,11 @@ Description: "Composition für den eNotfallpass von Maria Schmidt"
 * subject = Reference(UC1-Patient-MariaSchmidt)
 * date = "2025-09-10T08:00:00+02:00"
 
-* author = Reference(Practitioner-DrMueller)
+* author = Reference(UC1-Practitioner-DrMueller)
 * title = "Elektronischer Notfallpass - Maria Schmidt"
 
 * confidentiality = #N
-* custodian = Reference(Organization-Hausarztpraxis-DrMueller)
+* custodian = Reference(UC1-Organization-Hausarztpraxis-DrMueller)
 
 // Patient Summary Section
 * section[0].title = "Patientenübersicht"
