@@ -5,7 +5,6 @@ Title: "Dr. med. Hans Müller"
 Description: "Hausarzt von Maria Schmidt"
 
 // Identifier
-* identifier[0].type = http://terminology.hl7.org/CodeSystem/v2-0203#GLN
 * identifier[0].system = $oid-gln
 * identifier[0].value = "7601000234567"
 
