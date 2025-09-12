@@ -10,7 +10,7 @@ This implementation guide is based on the concept for the exchange format of the
 This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/de/) until September 30th, 2025 midnight.   
 Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments.
 
-[Changelog](pjolo/emr/changelog.html) with significant changes, open and closed issues.
+[Changelog](https://pjolo.github.io/emr/changelog.html) with significant changes, open and closed issues.
 
 </div>
 
