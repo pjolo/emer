@@ -4,13 +4,10 @@ Usage: #example
 Title: "Verkehrsunfall in der Schwangerschaft"
 Description: "Notfall-Behandlung nach Verkehrsunfall"
 
-* identifier.system = "http://www.universitaetsspital-basel.ch/encounter-id"
-* identifier.value = "USB-20250910-001"
-
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#EMER "emergency"
 
-* type = $sct#397945004 "Unexpected emergency admission"
+* type = $sct#397945004 "Unexpected admission to intensive care unit (procedure)"
 
 * subject = Reference(UC3-Patient-LauraWeber)
 
@@ -23,11 +20,11 @@ Description: "Notfall-Behandlung nach Verkehrsunfall"
 * period.start = "2025-09-10T15:30:00+02:00"
 * period.end = "2025-09-10T20:00:00+02:00"
 
-* reasonCode = $sct#217082002 "Accidental injury"
+* reasonCode = $sct#217082002 "Accidental fall"
 * reasonCode.text = "Verkehrsunfall in der 32. Schwangerschaftswoche"
 
 * location.location.display = "Notaufnahme Universitätsspital Basel"
 * location.status = #active
 
-* hospitalization.admitSource = $sct#309902002 "Emergency department"
+* hospitalization.admitSource = $sct#309902002 "Clinical oncology department"
 * hospitalization.dischargeDisposition = $sct#306689006 "Discharge to home"

@@ -52,7 +52,7 @@ Description: "Composition für den eNotfallpass von Laura Weber"
 
 // Care Team Section
 * section[4].title = "Behandlungsteam"
-* section[4].code = $loinc#85847-2 "Provider information"
+* section[4].code = $loinc#85847-2 "Patient Care team information"
 * section[4].text.status = #generated
 * section[4].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Behandelnde Ärzte:</p><ul><li>Dr. med. Sarah Huber - Gynäkologin (GLN: 7601000567890)</li></ul></div>"
 * section[4].entry = Reference(UC3-Practitioner-DrGynaekologin)

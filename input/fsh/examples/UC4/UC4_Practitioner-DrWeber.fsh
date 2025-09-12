@@ -6,7 +6,7 @@ Description: "Hausarzt von Rudolf Zimmermann"
 
 * language = #de-CH
 * identifier[GLN].system = "urn:oid:2.51.1.3"
-* identifier[GLN].value = "7601002322553"
+* identifier[GLN].value = "7601007922000"
 
 * name.family = "Weber"
 * name.given = "Klaus"

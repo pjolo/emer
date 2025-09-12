@@ -4,13 +4,8 @@ Usage: #example
 Title: "Patient Rudolf Zimmermann"
 Description: "Multimorbider 85-jähriger Patient für den eNotfallpass"
 
-* identifier[0].type = $v2-0203#SS
 * identifier[0].system = $oid-ahvn13
 * identifier[0].value = "7563456789123"
-
-* identifier[1].type = $v2-0203#MR
-* identifier[1].system = "http://www.universitaetsspital-basel.ch/patient-id"
-* identifier[1].value = "P789123456"
 
 * name.family = "Zimmermann"
 * name.given[0] = "Rudolf"

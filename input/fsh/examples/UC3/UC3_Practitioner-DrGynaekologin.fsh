@@ -6,7 +6,7 @@ Description: "Gynäkologin von Laura Weber"
 
 * language = #de-CH
 * identifier[GLN].system = "urn:oid:2.51.1.3"
-* identifier[GLN].value = "7601000567890"
+* identifier[GLN].value = "7601007922000"
 
 * name.use = #official
 * name.family = "Huber"

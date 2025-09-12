@@ -4,8 +4,8 @@ Usage: #example
 Title: "eNotfallpass Bundle - Hans Meier"
 Description: "Vollständiges eNotfallpass Bundle für Hans Meier"
 
-* identifier.system = "http://fhir.ch/ig/emr/bundle-id"
-* identifier.value = "eNP-HM-20250910-001"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:7afc1e97-67f8-49a8-91f5-46af596d0609"
 * type = #document
 * timestamp = "2025-09-10T11:00:00+02:00"
 

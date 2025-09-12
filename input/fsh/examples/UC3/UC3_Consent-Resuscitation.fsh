@@ -22,7 +22,7 @@ Description: "Spezielle Patientenverfügung für Schwangerschaft"
 * provision.period.start = "2025-07-15"
 * provision.period.end = "2026-01-15"
 
-* provision.code = $loinc#75320-2 "Resuscitation status"
+* provision.code = $loinc#75320-2 "Advance directive"
 
 * provision.dataPeriod.start = "2025-07-15"
 * provision.dataPeriod.end = "2026-01-15"

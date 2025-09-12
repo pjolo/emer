@@ -71,7 +71,7 @@ Description: "Composition für den eNotfallpass von Rudolf Zimmermann"
 
 // Care Team Section
 * section[6].title = "Behandlungsteam"
-* section[6].code = $loinc#85847-2 "Provider information"
+* section[6].code = $loinc#85847-2 "Patient Care team information"
 * section[6].text.status = #generated
 * section[6].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Behandelnde Ärzte:</p><ul><li>Dr. med. Klaus Weber - Hausarzt (GLN: 7601000789012)</li></ul></div>"
 * section[6].entry = Reference(UC4-Practitioner-DrWeber)

@@ -8,7 +8,6 @@ Description: "Organisation der Gynäkologie-Praxis"
 * identifier.value = "7601000567891"
 
 * active = true
-* type = $sct#394586005 "Gynecology service"
 * name = "Gynäkologie Praxis Basel"
 
 * telecom[0].system = #phone

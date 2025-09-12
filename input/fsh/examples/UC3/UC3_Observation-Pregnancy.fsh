@@ -13,7 +13,7 @@ Description: "Aktuelle Schwangerschaft in der 32. Woche"
 
 * valueCodeableConcept = $sct#77386006 "Pregnant"
 
-* component[0].code = $loinc#18185-9 "Gestational age at birth"
+* component[0].code = $loinc#18185-9 "Gestational age"
 * component[0].valueQuantity.value = 32
 * component[0].valueQuantity.unit = "weeks"
 * component[0].valueQuantity.system = $ucum

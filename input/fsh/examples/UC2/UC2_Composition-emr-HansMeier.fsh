@@ -58,7 +58,7 @@ Description: "Composition für den eNotfallpass von Hans Meier"
 
 // Care Team Section
 * section[5].title = "Behandlungsteam"
-* section[5].code = $loinc#85847-2 "Provider information"
+* section[5].code = $loinc#85847-2 "Patient Care team information"
 * section[5].text.status = #generated
 * section[5].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Behandelnde Ärzte:</p><ul><li>Dr. med. Andrea Zimmermann - Kardiologin (GLN: 7601000456789)</li></ul></div>"
 * section[5].entry = Reference(UC2-Practitioner-DrKardiologe)
