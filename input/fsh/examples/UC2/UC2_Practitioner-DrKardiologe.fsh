@@ -6,7 +6,7 @@ Description: "Kardiologin von Hans Meier"
 
 * language = #de-CH
 * identifier[GLN].system = "urn:oid:2.51.1.3"
-* identifier[GLN].value = "7601000456789"
+* identifier[GLN].value = "7601000345678"
 
 * name.use = #official
 * name.family = "Zimmermann"

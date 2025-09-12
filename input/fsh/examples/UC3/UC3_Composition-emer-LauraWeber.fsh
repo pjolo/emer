@@ -4,8 +4,8 @@ Usage: #example
 Title: "eNotfallpass Composition - Laura Weber"
 Description: "Composition für den eNotfallpass von Laura Weber"
 
-* identifier.system = "http://fhir.ch/ig/emr/composition-id"
-* identifier.value = "eNP-Comp-LW-20250910-001"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:7afc1e97-67f8-49a8-91f5-46af596d0609
 
 * status = #final
 * type = $loinc#60591-5 "Patient summary Document"

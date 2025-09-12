@@ -8,7 +8,7 @@ Description: "Organisation der Kardiologie-Praxis"
 * identifier.value = "7601000456780"
 
 * active = true
-* type = $sct#394579002 "Cardiology service"
+* type = $sct#394579002 "Cardiology (qualifier value)"
 * name = "Kardiologie Zentrum Bern"
 
 * telecom[0].system = #phone

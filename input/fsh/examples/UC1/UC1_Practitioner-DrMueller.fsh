@@ -7,7 +7,7 @@ Description: "Hausarzt von Maria Schmidt"
 // Identifier
 * language = #de-CH
 * identifier[GLN].system = "urn:oid:2.51.1.3"
-* identifier[GLN].value = "7601000456789"
+* identifier[GLN].value = "7601000987654"
 
 // Name (ohne Slice!)
 * name.use = #official
