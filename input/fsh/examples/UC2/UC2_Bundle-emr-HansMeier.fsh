@@ -33,6 +33,10 @@ Description: "Vollständiges eNotfallpass Bundle für Hans Meier"
 * entry[5].fullUrl = "http://fhir.ch/ig/emr/Device/UC2-Device-Herzschrittmacher"
 * entry[5].resource = UC2-Device-Herzschrittmacher
 
+// INR Observation
+* entry[6].fullUrl = "http://fhir.ch/ig/enotfallpass/Observation/Observation-INR"
+* entry[6].resource = Observation-INR
+
 // RelatedPerson (Ehefrau)
 * entry[7].fullUrl = "http://fhir.ch/ig/emr/RelatedPerson/UC2-RelatedPerson-ElisabethMeier"
 * entry[7].resource = UC2-RelatedPerson-ElisabethMeier
