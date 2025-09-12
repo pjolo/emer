@@ -8,6 +8,8 @@ Description: "Vollmacht für medizinische Entscheidungen an Tochter"
 * scope = http://terminology.hl7.org/CodeSystem/consentscope#treatment
 * category = http://terminology.hl7.org/CodeSystem/consentcategorycodes#acd "Advance Directive"
 
+* policyRule = http://terminology.hl7.org/CodeSystem/consentpolicycodes#cric
+
 * patient = Reference(UC4-Patient-RudolfZimmermann)
 * dateTime = "2023-11-15T10:00:00+01:00"
 * performer = Reference(UC4-Patient-RudolfZimmermann)

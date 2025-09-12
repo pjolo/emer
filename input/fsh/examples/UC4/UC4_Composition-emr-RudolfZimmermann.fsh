@@ -14,7 +14,7 @@ Description: "Composition für den eNotfallpass von Rudolf Zimmermann"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * date = "2025-09-10T16:00:00+02:00"
 
-* author = Reference(Practitioner-DrWeber)
+* author = Reference(UC4-Practitioner-DrWeber)
 * title = "Elektronischer Notfallpass - Rudolf Zimmermann (Multimorbidität)"
 
 * confidentiality = #N

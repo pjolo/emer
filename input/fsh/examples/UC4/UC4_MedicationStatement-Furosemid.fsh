@@ -8,6 +8,7 @@ Description: "Diuretikum Therapie"
 * medicationCodeableConcept = $atc#C03CA01 "Furosemide"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * dateAsserted = "2025-09-01"
+* effectiveDateTime = "2025-09-01"
 * informationSource = Reference(UC4-Practitioner-DrWeber)
 
 * dosage.text = "40mg einmal täglich morgens"

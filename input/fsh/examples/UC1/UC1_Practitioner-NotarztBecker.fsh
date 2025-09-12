@@ -4,13 +4,9 @@ Usage: #example
 Title: "Dr. med. Thomas Becker"
 Description: "Notarzt im Rettungsdienst"
 
-* identifier[0].system = $oid-gln
-* identifier[0].value = "7601000987654"
-
-* identifier[1].system = $oid-zsr
-* identifier[1].value = "A987654"
-
-* active = true
+* language = #de-CH
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601000987654"
 
 * name.use = #official
 * name.family = "Becker"
@@ -27,8 +23,7 @@ Description: "Notarzt im Rettungsdienst"
 * address.postalCode = "8055"
 * address.country = "CH"
 
-* gender = #male
-* birthDate = "1975-11-08"
+
 
 * qualification[0].code = $sct#773568002 "Emergency medicine"
 * qualification[0].period.start = "2008-12-01"

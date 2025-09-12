@@ -8,6 +8,8 @@ Description: "Spezielle Patientenverfügung für Schwangerschaft"
 * scope = http://terminology.hl7.org/CodeSystem/consentscope#treatment
 * category = http://terminology.hl7.org/CodeSystem/consentcategorycodes#acd "Advance Directive"
 
+* policyRule = http://terminology.hl7.org/CodeSystem/consentpolicycodes#cric
+
 * patient = Reference(UC3-Patient-LauraWeber)
 * dateTime = "2025-07-15T14:30:00+02:00"
 * performer = Reference(UC3-Patient-LauraWeber)

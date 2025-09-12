@@ -42,12 +42,19 @@ Description: "Composition für den eNotfallpass von Hans Meier"
 * section[2].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Aktuelle Medikation:</p><ul><li><strong>WICHTIG:</strong> Marcumar 3mg täglich abends zur Antikoagulation</li></ul><p><strong>Bei Operationen:</strong> Bridging mit Heparin erforderlich!</p></div>"
 * section[2].entry = Reference(UC2-MedicationStatement-Marcumar)
 
-// Medical Devices Section
-* section[3].title = "Medizinische Geräte"
-* section[3].code = $loinc#46264-8 "History of medical device use"
+// Allergies Section (falls keine Allergien)
+* section[3].title = "Allergien und Unverträglichkeiten"
+* section[3].code = $loinc#48765-2 "Allergies and adverse reactions Document"
 * section[3].text.status = #generated
-* section[3].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Implantate:</p><ul><li><strong>MRT-SICHER:</strong> Herzschrittmacher Boston Scientific Accolade MRI (Modell L331)</li><li>Seriennummer: PM987654321</li><li>Implantiert: 15.03.2020</li><li>Letzte Kontrolle: 01.09.2025</li></ul></div>"
-* section[3].entry = Reference(UC2-Device-Herzschrittmacher)
+* section[3].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keine bekannten Allergien</p></div>"
+* section[3].emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#nilknown "Nil Known"
+
+// Medical Devices Section
+* section[4].title = "Medizinische Geräte"
+* section[4].code = $loinc#46264-8 "History of medical device use"
+* section[4].text.status = #generated
+* section[4].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Implantate:</p><ul><li><strong>MRT-SICHER:</strong> Herzschrittmacher Boston Scientific Accolade MRI (Modell L331)</li><li>Seriennummer: PM987654321</li><li>Implantiert: 15.03.2020</li><li>Letzte Kontrolle: 01.09.2025</li></ul></div>"
+* section[4].entry = Reference(UC2-Device-Herzschrittmacher)
 
 // Care Team Section
 * section[5].title = "Behandlungsteam"

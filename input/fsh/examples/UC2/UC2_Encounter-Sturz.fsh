@@ -10,7 +10,7 @@ Description: "Notfall-Behandlung nach Sturz mit Verdacht auf Schenkelhalsfraktur
 * status = #in-progress
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#EMER "emergency"
 
-* type = $sct#417005002 "Hospital re-admission following fall"
+* type = $sct#32485007 "Hospital admission"
 
 * subject = Reference(UC2-Patient-HansMeier)
 

@@ -8,6 +8,7 @@ Description: "Beta-Blocker Therapie"
 * medicationCodeableConcept = $atc#C07AB02 "Metoprolol"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * dateAsserted = "2025-09-01"
+* effectiveDateTime = "2025-09-01"
 * informationSource = Reference(UC4-Practitioner-DrWeber)
 
 * dosage.text = "50mg zweimal täglich (morgens und abends)"

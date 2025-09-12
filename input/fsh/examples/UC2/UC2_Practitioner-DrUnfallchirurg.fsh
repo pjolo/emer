@@ -4,13 +4,10 @@ Usage: #example
 Title: "Dr. med. Michael Weber"
 Description: "Unfallchirurg in der Notaufnahme"
 
-* identifier[0].system = $oid-gln
-* identifier[0].value = "7601000345678"
 
-* identifier[1].system = $oid-zsr
-* identifier[1].value = "A345678"
-
-* active = true
+* language = #de-CH
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601000345678"
 
 * name.use = #official
 * name.family = "Weber"
@@ -26,9 +23,6 @@ Description: "Unfallchirurg in der Notaufnahme"
 * address.city = "Bern"
 * address.postalCode = "3010"
 * address.country = "CH"
-
-* gender = #male
-* birthDate = "1978-03-14"
 
 * qualification[0].code = $sct#394801008 "Trauma and orthopedic surgery"
 * qualification[0].period.start = "2010-01-01"

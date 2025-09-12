@@ -9,6 +9,7 @@ Description: "Metformin Therapie bei Diabetes - KONTRAINDIZIERT bei Niereninsuff
 * medicationCodeableConcept = $atc#A10BA02 "Metformin"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * dateAsserted = "2025-09-10"
+* effectiveDateTime = "2025-09-10"
 * informationSource = Reference(UC4-Practitioner-DrWeber)
 
 * dosage.text = "1000mg zweimal täglich zu den Mahlzeiten - GESTOPPT wegen Niereninsuffizienz"

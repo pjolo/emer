@@ -5,14 +5,9 @@ Title: "Dr. med. Hans Müller"
 Description: "Hausarzt von Maria Schmidt"
 
 // Identifier
-* identifier[0].system = $oid-gln
-* identifier[0].value = "7601000234567"
-
-* identifier[1].type = http://terminology.hl7.org/CodeSystem/v2-0203#PRN
-* identifier[1].system = $oid-zsr
-* identifier[1].value = "A123456"
-
-* active = true
+* language = #de-CH
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601000234567"
 
 // Name (ohne Slice!)
 * name.use = #official
@@ -34,9 +29,6 @@ Description: "Hausarzt von Maria Schmidt"
 * address.city = "Zürich"
 * address.postalCode = "8001"
 * address.country = "CH"
-
-* gender = #male
-* birthDate = "1965-04-12"
 
 // Qualification
 * qualification.code = $sct#408443003 "General medical practice"

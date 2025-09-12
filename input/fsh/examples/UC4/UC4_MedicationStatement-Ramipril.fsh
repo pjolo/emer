@@ -8,6 +8,7 @@ Description: "ACE-Hemmer Therapie"
 * medicationCodeableConcept = $atc#C09AA05 "Ramipril"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * dateAsserted = "2025-09-01"
+* effectiveDateTime = "2025-09-01"
 * informationSource = Reference(UC4-Practitioner-DrWeber)
 
 * dosage.text = "5mg einmal täglich morgens"

@@ -7,11 +7,11 @@ Description: "Künstliches Hüftgelenk links"
 * identifier[0].type = $v2-0203#SNO
 * identifier[0].value = "HP20180415001"
 
-* identifier[1].type = $v2-0203#MN
+* identifier[1].type = $v2-0203#EN
 * identifier[1].value = "Zimmer Biomet Taperloc"
 
 * status = #active
-* type = $sct#303497008 "Hip joint prosthesis"
+* type = $sct#304120007 "Total hip replacement prosthesis"
 * manufacturer = "Zimmer Biomet"
 
 * deviceName.name = "Taperloc Complete Hip System"

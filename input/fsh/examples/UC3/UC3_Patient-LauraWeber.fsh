@@ -35,24 +35,5 @@ Description: "Schwangere Patientin für den eNotfallpass"
 * address.postalCode = "4056"
 * address.country = "CH"
 
-// Partner Michael als Notfallkontakt
-* contact[0].relationship = $v3-RoleCode#C
-* contact[0].name.family = "Weber"
-* contact[0].name.given = "Michael"
-* contact[0].telecom[0].system = #phone
-* contact[0].telecom[0].value = "+41 79 555 12 34"
-* contact[0].telecom[0].use = #mobile
-* contact[0].address.line = "Rheinstrasse 78"
-* contact[0].address.city = "Basel"
-* contact[0].address.postalCode = "4056"
-* contact[0].address.country = "CH"
-
-// Mutter als weitere Angehörige
-* contact[1].relationship = $v3-RoleCode#N
-* contact[1].name.family = "Müller"
-* contact[1].name.given = "Susanne"
-* contact[1].telecom[0].system = #phone
-* contact[1].telecom[0].value = "+41 62 888 99 77"
-
 * communication.language = urn:ietf:bcp:47#de
 * communication.preferred = true

@@ -4,13 +4,9 @@ Usage: #example
 Title: "Dr. med. Sarah Huber"
 Description: "Gynäkologin von Laura Weber"
 
-* identifier[0].system = $oid-gln
-* identifier[0].value = "7601000567890"
-
-* identifier[1].system = $oid-zsr
-* identifier[1].value = "A567890"
-
-* active = true
+* language = #de-CH
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601000567890"
 
 * name.use = #official
 * name.family = "Huber"
@@ -30,9 +26,6 @@ Description: "Gynäkologin von Laura Weber"
 * address.city = "Basel"
 * address.postalCode = "4051"
 * address.country = "CH"
-
-* gender = #female
-* birthDate = "1975-08-12"
 
 * qualification[0].code = $sct#394586005 "Gynecology"
 * qualification[0].period.start = "2005-01-01"

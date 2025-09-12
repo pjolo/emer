@@ -7,7 +7,7 @@ Description: "Beispiel eines MRT-sicheren Herzschrittmachers"
 * identifier[0].type = $v2-0203#SNO
 * identifier[0].value = "PM987654321"
 
-* identifier[1].type = $v2-0203#MN
+* identifier[1].type = $v2-0203#EN
 * identifier[1].value = "L331"
 
 * status = #active

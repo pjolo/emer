@@ -35,25 +35,5 @@ Description: "Beispiel eines Patienten mit Herzschrittmacher für den eNotfallpa
 * address.postalCode = "3012"
 * address.country = "CH"
 
-// Ehefrau als Notfallkontakt
-* contact[0].relationship = $v3-RoleCode#C
-* contact[0].name.family = "Meier"
-* contact[0].name.given = "Elisabeth"
-* contact[0].telecom[0].system = #phone
-* contact[0].telecom[0].value = "+41 31 456 78 90"
-* contact[0].telecom[1].system = #phone
-* contact[0].telecom[1].value = "+41 79 987 65 43"
-* contact[0].address.line = "Bergstrasse 45"
-* contact[0].address.city = "Bern"
-* contact[0].address.postalCode = "3012"
-* contact[0].address.country = "CH"
-
-// Sohn als weitere Angehörige
-* contact[1].relationship = $v3-RoleCode#N
-* contact[1].name.family = "Meier"
-* contact[1].name.given = "Thomas"
-* contact[1].telecom[0].system = #phone
-* contact[1].telecom[0].value = "+41 44 321 54 87"
-
 * communication.language = urn:ietf:bcp:47#de
 * communication.preferred = true

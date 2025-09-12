@@ -6,7 +6,7 @@ Description: "Blutzucker-Messung bei Hypoglykämie-Notfall"
 
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
-* code = $loinc#33747-0 "Glucose measurement in blood"
+* code = $loinc#2339-0 "Glucose [Mass/volume] in Blood"
 * subject = Reference(UC1-Patient-MariaSchmidt)
 * effectiveDateTime = "2025-09-10T14:35:00+02:00"
 * performer = Reference(UC1-Practitioner-NotarztBecker)

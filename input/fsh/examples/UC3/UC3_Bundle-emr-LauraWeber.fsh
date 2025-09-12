@@ -1,4 +1,4 @@
-Instance: UC3-Bundle-eNotfallpass-LauraWeber
+Instance: UC3-Bundle-emr-LauraWeber
 InstanceOf: Bundle
 Usage: #example
 Title: "eNotfallpass Bundle - Laura Weber"
