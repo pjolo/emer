@@ -9,7 +9,7 @@ Description: "Organisation der Hausarztpraxis von Dr. Müller"
 
 
 * active = true
-* type = $sct#264358009 "General practice premises"
+
 * name = "Hausarztpraxis Dr. med. Hans Müller"
 * alias = "Praxis Dr. Müller"
 

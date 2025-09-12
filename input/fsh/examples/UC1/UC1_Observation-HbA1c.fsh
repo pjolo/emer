@@ -8,7 +8,7 @@ Description: "Letzter HbA1c-Wert von Maria Schmidt"
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $loinc#4548-4 "Hemoglobin A1c/Hemoglobin.total in Blood"
 * subject = Reference(UC1-Patient-MariaSchmidt)
-//* effectiveDate = "2025-08-15"
+* effectiveDateTime = "2025-09-10T14:35:00+02:00"
 * performer = Reference(UC1-Practitioner-DrMueller)
 
 * valueQuantity.value = 6.8
