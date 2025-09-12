@@ -22,4 +22,4 @@ Description: "Beispiel einer Marcumar-Therapie zur Antikoagulation"
 * dosage.doseAndRate.doseQuantity.system = $ucum
 * dosage.doseAndRate.doseQuantity.code = #mg
 
-* note.text = "INR-Zielbereich 2.0-3.0. Letzte INR-Kontrolle am 05.09.2025: 2.4. Regelmäßige Kontrollen alle 4-6 Wochen. Bei Operationen Bridging mit Heparin erforderlich."
+
