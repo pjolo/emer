@@ -13,7 +13,7 @@ Description: "Codes für Implantattypen (SNOMED CT)"
 
 * $sct#14106009 "Cardiac pacemaker"
 * $sct#360129009 "Implantable defibrillator"
-* $sct#303497008 "Hip joint prosthesis"
+* $sct#304120007 "Total hip replacement prosthesis"
 * $sct#304120007 "Knee joint prosthesis"
 * $sct#118431008 "Prosthetic implant"
 * $sct#257327003 "Implantable device"

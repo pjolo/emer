@@ -6,7 +6,7 @@ Description: "Schwester von Maria Schmidt als weitere Angehörige"
 
 * active = true
 * patient = Reference(UC1-Patient-MariaSchmidt)
-* relationship = $v3-RoleCode#SIBL "Sibling"
+* relationship = $v3-RoleCode#SIB "Sibling"
 
 * name.use = #official
 * name.family = "Müller"

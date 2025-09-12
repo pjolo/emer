@@ -6,7 +6,7 @@ Description: "Ehefrau von Hans Meier als Notfallkontakt"
 
 * active = true
 * patient = Reference(UC2-Patient-HansMeier)
-* relationship = $v3-RoleCode#SPOUSE "Spouse"
+* relationship = $v3-RoleCode#WIFE "wife"
 
 * name.use = #official
 * name.family = "Meier"

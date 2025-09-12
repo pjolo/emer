@@ -6,7 +6,7 @@ Description: "Ehemann von Maria Schmidt als Notfallkontakt"
 
 * active = true
 * patient = Reference(UC1-Patient-MariaSchmidt)
-* relationship = $v3-RoleCode#SPOUSE "Spouse"
+* relationship = $v3-RoleCode#HUSB "husband"
 
 * name.use = #official
 * name.family = "Schmidt"

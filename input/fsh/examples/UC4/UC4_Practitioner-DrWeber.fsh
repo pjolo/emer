@@ -4,15 +4,10 @@ Usage: #example
 Title: "Dr. med. Klaus Weber"
 Description: "Hausarzt von Rudolf Zimmermann"
 
-* identifier[0].system = $oid-gln
-* identifier[0].value = "7601000789012"
+* language = #de-CH
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601002322553"
 
-* identifier[1].system = $oid-zsr
-* identifier[1].value = "A789012"
-
-* active = true
-
-* name.use = #official
 * name.family = "Weber"
 * name.given = "Klaus"
 * name.prefix = "Dr. med."
@@ -30,9 +25,6 @@ Description: "Hausarzt von Rudolf Zimmermann"
 * address.city = "Basel"
 * address.postalCode = "4051"
 * address.country = "CH"
-
-* gender = #male
-* birthDate = "1968-09-14"
 
 * qualification[0].code = $sct#408443003 "General medical practice"
 * qualification[0].period.start = "1998-01-01"
