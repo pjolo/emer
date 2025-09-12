@@ -4,8 +4,8 @@ Usage: #example
 Title: "eNotfallpass Composition - Maria Schmidt"
 Description: "Composition für den eNotfallpass von Maria Schmidt"
 
-* identifier.system = "http://fhir.ch/ig/emr/composition-id"
-* identifier.value = "eNP-Comp-MS-20250910-001"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:7afc1e97-67f8-49a8-91f5-46af596d0609"
 
 * status = #final
 * type = $loinc#60591-5 "Patient summary Document"
@@ -52,20 +52,20 @@ Description: "Composition für den eNotfallpass von Maria Schmidt"
 
 // Laboratory Results Section
 * section[4].title = "Laborwerte"
-* section[4].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
+* section[4].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data note"
 * section[4].text.status = #generated
 * section[4].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Aktuelle Laborwerte:</p><ul><li>HbA1c: 6.8% (15.08.2025) - Zielwert erreicht</li></ul></div>"
 * section[4].entry = Reference(UC1-Observation-HbA1c)
 
 // Social History Section
 * section[5].title = "Sozialanamnese"
-* section[5].code = $loinc#29762-2 "Social history Narrative"
+* section[5].code = $loinc#29762-2 "Social history note"
 * section[5].text.status = #generated
 * section[5].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Soziale Situation:</p><ul><li>Verheiratet mit Peter Schmidt</li><li>Wohnt in Zürich</li><li>Kommunikation: Deutsch</li></ul></div>"
 
 // Care Team Section
 * section[6].title = "Behandlungsteam"
-* section[6].code = $loinc#85847-2 "Provider information"
+* section[6].code = $loinc#85847-2 "Patient Care team information"
 * section[6].text.status = #generated
 * section[6].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Behandelnde Ärzte:</p><ul><li>Dr. med. Hans Müller - Hausarzt (GLN: 7601000234567)</li></ul></div>"
 * section[6].entry = Reference(UC1-Practitioner-DrMueller)
