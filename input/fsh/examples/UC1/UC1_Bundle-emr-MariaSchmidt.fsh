@@ -21,7 +21,7 @@ Description: "Vollständiges eNotfallpass Bundle für Maria Schmidt"
 * entry[2].fullUrl = "http://fhir.ch/ig/emr/Practitioner/UC1-Practitioner-DrMueller"
 * entry[2].resource = UC1-Practitioner-DrMueller
 
-* entry[3].fullUrl = "http://fhir.ch/ig/enotfallpass/Organization/UC1-Organization-Hausarztpraxis-DrMueller"
+* entry[3].fullUrl = "http://fhir.ch/ig/emr/Organization/UC1-Organization-Hausarztpraxis-DrMueller"
 * entry[3].resource = UC1-Organization-Hausarztpraxis-DrMueller
 
 // Diabetes Condition

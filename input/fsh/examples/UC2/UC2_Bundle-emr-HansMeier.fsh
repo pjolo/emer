@@ -30,8 +30,8 @@ Description: "Vollständiges eNotfallpass Bundle für Hans Meier"
 * entry[4].resource = UC2-MedicationStatement-Marcumar
 
 // Herzschrittmacher Device
-* entry[5].fullUrl = "http://fhir.ch/ig/emr/Device/UC2-Device-Herzschrittmacher"
-* entry[5].resource = UC2-Device-Herzschrittmacher
+* entry[6].fullUrl = "http://fhir.ch/ig/emr/Device/UC2-Device-Herzschrittmacher"
+* entry[6].resource = UC2-Device-Herzschrittmacher
 
 // INR Observation
 //* entry[6].fullUrl = "http://fhir.ch/ig/enotfallpass/Observation/Observation-INR"
