@@ -8,7 +8,7 @@ Description: "Diabetes mellitus Typ 2 mit nephropathischen Komplikationen"
 * verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#confirmed
 * category = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item
 * severity = $sct#24484000 "Severe"
-* code = $icd10#E11.2 "Type 2 diabetes mellitus with kidney complications"
+* code = $icd10#E11.2 "Type 2 diabetes mellitus : With renal complications"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * onsetDateTime = "2010-04-15"
 * recordedDate = "2010-04-15"

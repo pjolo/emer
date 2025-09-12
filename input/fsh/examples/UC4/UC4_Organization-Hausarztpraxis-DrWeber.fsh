@@ -8,7 +8,6 @@ Description: "Organisation der Hausarztpraxis"
 * identifier.value = "7601000789013"
 
 * active = true
-* type = $sct#264358009 "General practice premises"
 * name = "Hausarztpraxis Dr. med. Klaus Weber"
 
 * telecom[0].system = #phone

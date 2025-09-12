@@ -8,7 +8,7 @@ Description: "Chronische Nierenerkrankung Stadium 3b"
 * verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#confirmed
 * category = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item
 * severity = $sct#24484000 "Severe"
-* code = $icd10#N18.3 "Chronic kidney disease, stage 3 (moderate)"
+* code = $icd10#N18.3 "Chronic kidney disease, stage 3"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * onsetDateTime = "2020-08-10"
 * recordedDate = "2020-08-10"

@@ -50,7 +50,7 @@ Description: "Composition für den eNotfallpass von Rudolf Zimmermann"
 
 // Laboratory Results Section
 * section[3].title = "Kritische Laborwerte"
-* section[3].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
+* section[3].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data note"
 * section[3].text.status = #generated
 * section[3].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p><strong>KRITISCH:</strong></p><ul><li>Kreatinin: 2.8 mg/dl (10.09.2025) - STARK ERHÖHT!</li><li>eGFR: ca. 20 ml/min/1.73m² - Stadium 4 Niereninsuffizienz</li></ul><p><strong>Sofortmaßnahmen:</strong> Metformin stoppen, Diuretika-Dosis reduzieren</p></div>"
 * section[3].entry = Reference(UC4-Observation-CreatinineLevel)
@@ -64,7 +64,7 @@ Description: "Composition für den eNotfallpass von Rudolf Zimmermann"
 
 // Advance Directives Section
 * section[5].title = "Verfügungen und Vollmachten"
-* section[5].code = $loinc#42348-3 "Advance directives"
+* section[5].code = $loinc#42348-3 "Advance healthcare directives"
 * section[5].text.status = #generated
 * section[5].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p><strong>Medizinische Vollmacht:</strong></p><p>Elisabeth Zimmermann (Tochter) ist bevollmächtigt, alle medizinischen Entscheidungen zu treffen.</p><p>Tel: +41 61 789 45 23</p></div>"
 * section[5].entry = Reference(UC4-Consent-MedicalPowerOfAttorney)

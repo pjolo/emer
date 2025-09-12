@@ -25,4 +25,4 @@ Description: "Künstliches Hüftgelenk links"
 
 * expirationDate = "2038-04-15"
 
-* safety = $sct#182857002 "MR conditional"
+

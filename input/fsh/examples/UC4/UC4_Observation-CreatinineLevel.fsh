@@ -10,6 +10,8 @@ Description: "Aktueller Kreatininwert zeigt schwere Niereninsuffizienz"
 * subject = Reference(UC4-Patient-RudolfZimmermann)
 * performer = Reference(UC4-Practitioner-DrWeber)
 
+* effectiveDateTime = "2025-09-10T16:00:00+02:00"
+
 * valueQuantity.value = 2.8
 * valueQuantity.unit = "mg/dl"
 * valueQuantity.system = $ucum
@@ -17,8 +19,8 @@ Description: "Aktueller Kreatininwert zeigt schwere Niereninsuffizienz"
 
 * note.text = "Deutliche Verschlechterung der Nierenfunktion. eGFR ca. 20 ml/min/1.73m² (Stadium 4). Sofortige Medikamentenanpassung erforderlich. Metformin absetzen!"
 
-* component[0].code = $loinc#33914-3 "Glomerular filtration rate/1.73 sq M.predicted"
+* component[0].code = $loinc#33914-3 "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M"
 * component[0].valueQuantity.value = 20
 * component[0].valueQuantity.unit = "ml/min/1.73m2"
 * component[0].valueQuantity.system = $ucum
-* component[0].valueQuantity.code = #mL/min/{1.73_m2}
+* component[0].valueQuantity.code = #mL/min

@@ -38,7 +38,7 @@ Description: "Composition für den eNotfallpass von Laura Weber"
 
 // Advance Directives Section
 * section[2].title = "Patientenverfügung"
-* section[2].code = $loinc#42348-3 "Advance directives"
+* section[2].code = $loinc#42348-3 "Advance healthcare directives"
 * section[2].text.status = #generated
 * section[2].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p><strong>WICHTIGE PATIENTENVERFÜGUNG:</strong></p><p>Bei lebensbedrohlichen Komplikationen während der Schwangerschaft soll eine Reanimation nur dann durchgeführt werden, wenn dadurch das ungeborene Kind gerettet werden kann.</p><p>Das Wohl des Kindes ist prioritär zu berücksichtigen.</p></div>"
 * section[2].entry = Reference(UC3-Consent-Resuscitation)
